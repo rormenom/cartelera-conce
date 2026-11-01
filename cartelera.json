@@ -1,0 +1,593 @@
+{
+  "actualizado": "2026-11-01",
+  "lugares": {
+    "tbb": {
+      "nombre": "Teatro Biobío",
+      "color": "--tbb"
+    },
+    "udec": {
+      "nombre": "Teatro UdeC",
+      "color": "--udec"
+    },
+    "ucsc": {
+      "nombre": "UCSC",
+      "color": "--ucsc"
+    },
+    "pina": {
+      "nombre": "Casa del Arte UdeC",
+      "color": "--pina"
+    },
+    "af": {
+      "nombre": "Alianza Francesa",
+      "color": "--af"
+    },
+    "bib": {
+      "nombre": "Biblioteca Municipal",
+      "color": "--bib"
+    },
+    "gh": {
+      "nombre": "Galería de la Historia",
+      "color": "--gh"
+    }
+  },
+  "eventos": [
+    {
+      "fecha": "2026-11-02",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Sueño Da Vinci",
+      "detalle": "Centro Oráculo",
+      "tipo": "Teatro · +8",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/sueno-da-vinci/"
+    },
+    {
+      "fecha": "2026-11-03",
+      "hora": "17:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Valentina",
+      "detalle": "Festival BioBioCine",
+      "tipo": "Cine infantil",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/valentina-12o-edicion-festival-internacional-biobiocine/"
+    },
+    {
+      "fecha": "2026-11-03",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "O menino e o mundo",
+      "detalle": "Alê Abreu · Festival BioBioCine",
+      "tipo": "Cine infantil",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/o-menino-e-o-mundo-el-nino-y-el-mundo-12o-edicion-festival-internacional-biobiocine/"
+    },
+    {
+      "fecha": "2026-11-03",
+      "hora": "19:00",
+      "lugar": "af",
+      "sala": "Sala de teatro, Colo Colo 1",
+      "titulo": "Maria",
+      "detalle": "Ciclo de cine Pensar Sentir Mostrar",
+      "tipo": "Cine",
+      "precio": "Gratis",
+      "url": "https://www.afconcepcion.cl/eventos/"
+    },
+    {
+      "fecha": "2026-11-04",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Bailarinas incendiadas",
+      "detalle": "Argentina · Festival de Teatro del Biobío",
+      "tipo": "Teatro · +12",
+      "precio": "$4.000",
+      "url": "https://teatrobiobio.cl/bailarinas-incendiadas-festival-internacional-de-teatro-del-biobio/"
+    },
+    {
+      "fecha": "2026-11-05",
+      "hora": "09:30",
+      "lugar": "ucsc",
+      "sala": "Auditorio Santa Teresa de Jesús de Ávila",
+      "titulo": "Encuentro con la actriz Sara Becker",
+      "detalle": "Dirección Audiovisual y Multimedia UCSC",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/conversatorio-encuentro-con-la-actriz-sara-becker/"
+    },
+    {
+      "fecha": "2026-11-05",
+      "hora": "19:00",
+      "lugar": "ucsc",
+      "sala": "Sala de Exposiciones, Centro de Extensión",
+      "titulo": "Inauguración «Lo que el agua revela»",
+      "detalle": "Acuarelas de Micaelina Campos",
+      "tipo": "Artes visuales",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/inauguracion-de-la-exposicion-lo-que-el-agua-revela-de-la-acuarelista-micaelina-campos/"
+    },
+    {
+      "fecha": "2026-11-05",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Antígona del Pueblo Pez",
+      "detalle": "Migue Barra · texto de Leyla Selman · FTB",
+      "tipo": "Teatro · +14",
+      "precio": "$4.000",
+      "url": "https://teatrobiobio.cl/antigona-del-pueblo-pez-festival-internacional-de-teatro-del-biobio/"
+    },
+    {
+      "fecha": "2026-11-06",
+      "hora": "11:00",
+      "lugar": "ucsc",
+      "sala": "Sala de Exposiciones, Centro de Extensión",
+      "titulo": "Conversatorio con Micaelina Campos",
+      "detalle": "Sobre «Lo que el agua revela»",
+      "tipo": "Artes visuales",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/conversatorio-lo-que-el-agua-revela-de-la-acuarelista-micaelina-campos/"
+    },
+    {
+      "fecha": "2026-11-06",
+      "hora": "11:00",
+      "lugar": "ucsc",
+      "sala": "Parque Museo Pedro del Río Zañartu",
+      "titulo": "Pedro del Río Zañartu: vida, obra y legado cultural",
+      "detalle": "Conferencias",
+      "tipo": "Patrimonio",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/conferencias-pedro-del-rio-zanartu-vida-obra-y-legado-cultural/"
+    },
+    {
+      "fecha": "2026-11-06",
+      "hora": "19:30",
+      "lugar": "ucsc",
+      "sala": "Teatro UCSC",
+      "titulo": "UCSC en sinfonía: donde la excelencia se hace música",
+      "detalle": "Extensión Cultural UCSC",
+      "tipo": "Concierto",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/concierto-ucsc-en-sinfonia-donde-la-excelencia-se-hace-musica/"
+    },
+    {
+      "fecha": "2026-11-06",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "The very last northern rhino",
+      "detalle": "Cía. Gastón Core (Cataluña) · FTB",
+      "tipo": "Teatro · +12",
+      "precio": "$4.000",
+      "url": "https://teatrobiobio.cl/the-very-last-northern-rhino-festival-internacional-de-teatro-del-biobio/"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "15:00",
+      "lugar": "tbb",
+      "sala": "Café TBB",
+      "titulo": "Taller de croquis: de la mirada al papel",
+      "detalle": "Viviana Esparza",
+      "tipo": "Taller · +14",
+      "precio": "",
+      "url": "https://teatrobiobio.cl/taller-de-croquis-de-la-mirada-al-papel/"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "16:00",
+      "lugar": "ucsc",
+      "sala": "Teatro UCSC",
+      "titulo": "El patito feo",
+      "detalle": "Compañía de Teatro El Rostro",
+      "tipo": "Teatro familiar",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/teatro-familiar-el-patito-feo-compania-de-teatro-el-rostro-2/"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "17:00",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "El niño de los fósiles",
+      "detalle": "Obra inclusiva · FTB",
+      "tipo": "Teatro",
+      "precio": "$4.000",
+      "url": "https://teatrobiobio.cl/el-nino-de-los-fosiles-festival-internacional-de-teatro-del-biobio/"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "17:00",
+      "lugar": "ucsc",
+      "sala": "Parque Museo Pedro del Río Zañartu",
+      "titulo": "Rock de Concepción: música y territorio",
+      "detalle": "Concierto orquestado",
+      "tipo": "Concierto",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/concierto-orquestado-rock-de-concepcion-musica-y-territorio/"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Razones para no morir",
+      "detalle": "Teatro Nacional Chileno · FTB",
+      "tipo": "Teatro · +14",
+      "precio": "$4.000",
+      "url": "https://teatrobiobio.cl/razones-para-no-morir-festival-internacional-de-teatro-del-biobio/"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Azul",
+      "detalle": "Compañía <3 · teatro documental · FTB",
+      "tipo": "Teatro · +14",
+      "precio": "$4.000",
+      "url": "https://teatrobiobio.cl/azul-festival-internacional-de-teatro-del-biobio/"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "OU",
+      "detalle": "CRL – Central Elétrica (Portugal) · FTB",
+      "tipo": "Danza y teatro · +12",
+      "precio": "$4.000",
+      "url": "https://teatrobiobio.cl/ou-festival-internacional-de-teatro-del-biobio/"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "",
+      "lugar": "udec",
+      "sala": "Teatro UdeC",
+      "titulo": "Cerebro de Bebé",
+      "detalle": "Ignacio Socías",
+      "tipo": "Comedia",
+      "precio": "Ticketmaster",
+      "url": "https://www.ticketmaster.cl/page/home-teatro-universidad-de-concepcion"
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Naturaleza sonora: Experiencia Nonguén",
+      "detalle": "Cecilia Gutiérrez y Fernando Matus de la Parra",
+      "tipo": "Música contemporánea",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/naturaleza-sonora-experiencia-nonguen/"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Mister Shakespeare",
+      "detalle": "Marco Antonio de la Parra",
+      "tipo": "Teatro · +16",
+      "precio": "$12.000 / $9.000",
+      "url": "https://teatrobiobio.cl/mister-shakespeare/"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Nektar Machine: Náutica",
+      "detalle": "Lanzamiento de disco",
+      "tipo": "Música",
+      "precio": "$7.000 / $5.000",
+      "url": "https://teatrobiobio.cl/nektar-machine/"
+    },
+    {
+      "fecha": "2026-11-15",
+      "hora": "",
+      "lugar": "udec",
+      "sala": "Teatro UdeC",
+      "titulo": "León Gieco",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "Ticketmaster",
+      "url": "https://www.ticketmaster.cl/page/home-teatro-universidad-de-concepcion"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Festival Nacional de Big Band Juveniles",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/festival-nacional-de-big-band-juveniles/"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Cambio de turno",
+      "detalle": "Teatro de Masas · dir. Pablo Villablanca",
+      "tipo": "Teatro · +10",
+      "precio": "$7.000 / $5.000",
+      "url": "https://teatrobiobio.cl/cambio-de-turno/"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Cambio de turno",
+      "detalle": "Teatro de Masas · dir. Pablo Villablanca",
+      "tipo": "Teatro · +10",
+      "precio": "$7.000 / $5.000",
+      "url": "https://teatrobiobio.cl/cambio-de-turno/"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Mama Choclo",
+      "detalle": "Concierto teatral · Cía. Imaginaria",
+      "tipo": "Familiar · +5",
+      "precio": "$3.000",
+      "url": "https://teatrobiobio.cl/mama-choclo/"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "19:00",
+      "lugar": "udec",
+      "sala": "Teatro UdeC",
+      "titulo": "Sinfónico 11: Hacia el nuevo horizonte",
+      "detalle": "Bruch, Respighi · dir. Luis Toro Araya · Raquel Areal, violín",
+      "tipo": "Orquesta Sinfónica UdeC",
+      "precio": "desde $3.600",
+      "url": "https://ticketplus.cl/events/sinfonico-11-hacia-el-nuevo-horizonte"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "19:00",
+      "lugar": "udec",
+      "sala": "Teatro UdeC",
+      "titulo": "Sinfónico 11: Hacia el nuevo horizonte",
+      "detalle": "Bruch, Respighi · dir. Luis Toro Araya · Raquel Areal, violín",
+      "tipo": "Orquesta Sinfónica UdeC",
+      "precio": "desde $3.600",
+      "url": "https://ticketplus.cl/events/sinfonico-11-hacia-el-nuevo-horizonte"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Cambio de turno",
+      "detalle": "Teatro de Masas · dir. Pablo Villablanca",
+      "tipo": "Teatro · +10",
+      "precio": "$7.000 / $5.000",
+      "url": "https://teatrobiobio.cl/cambio-de-turno/"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Catalina y las bordonas de oro",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "$13.000 – $30.000",
+      "url": "https://teatrobiobio.cl/catalina-y-las-bordonas-de-oro/"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "",
+      "lugar": "bib",
+      "sala": "Biblioteca Municipal de Concepción",
+      "titulo": "Fiesta del Libro (3ª edición)",
+      "detalle": "Editoriales regionales, talleres y cuentacuentos",
+      "tipo": "Libros · familiar",
+      "precio": "Gratis",
+      "url": "https://www.diarioconcepcion.cl/cultura/2026/10/16/biblioteca-municipal-penquista-reunira-editoriales-fiesta-del-libro.html"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "14:00",
+      "lugar": "af",
+      "sala": "Calle Colo Colo",
+      "titulo": "Fiesta de la Música 2026",
+      "detalle": "Música en vivo en la calle",
+      "tipo": "Música · al aire libre",
+      "precio": "Gratis",
+      "url": "https://www.afconcepcion.cl/eventos/"
+    },
+    {
+      "fecha": "2026-11-27",
+      "hora": "20:00",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Carta de amor",
+      "detalle": "DOSEL · dir. Cristian Reinas",
+      "tipo": "Interdisciplina · +13",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/carta-de-amor/"
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "20:00",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Carta de amor",
+      "detalle": "DOSEL · dir. Cristian Reinas",
+      "tipo": "Interdisciplina · +13",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/carta-de-amor/"
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Folie",
+      "detalle": "Brumachon y Lamarche · Compagnie Sous la Peau",
+      "tipo": "Danza",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/folie/"
+    }
+  ],
+  "exposiciones": [
+    {
+      "lugar": "tbb",
+      "titulo": "Lo personal es político",
+      "detalle": "Instalación sonora y visual · Hall principal",
+      "desde": null,
+      "hasta": "2026-11-10",
+      "horario": "Mar a sáb, 15:00–22:30",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/instalacion-sonora-y-visual-lo-personal-es-politico/"
+    },
+    {
+      "lugar": "tbb",
+      "titulo": "Resistir · Crear · Cuidar · Sentir",
+      "detalle": "Retrospectiva gráfica del FTB · Hall",
+      "desde": "2026-11-04",
+      "hasta": "2026-11-11",
+      "horario": "",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/instalacion-grafica-retrospectiva-ftb/"
+    },
+    {
+      "lugar": "tbb",
+      "titulo": "Textos negros",
+      "detalle": "Pablo Langlois · Hall principal",
+      "desde": null,
+      "hasta": "2026-12-02",
+      "horario": "",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/pinturas-negras-textos-negros/"
+    },
+    {
+      "lugar": "ucsc",
+      "titulo": "Lo que el agua revela",
+      "detalle": "Micaelina Campos · Sala de Exposiciones UCSC",
+      "desde": "2026-11-05",
+      "hasta": null,
+      "horario": "",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "lugar": "pina",
+      "titulo": "Espacios de identidad",
+      "detalle": "Mediaciones con la Colección Pinacoteca UdeC · Sala 4",
+      "desde": null,
+      "hasta": "2026-11-29",
+      "horario": "",
+      "precio": "",
+      "url": "https://pinacoteca.udec.cl/exposiciones/"
+    },
+    {
+      "lugar": "pina",
+      "titulo": "Tejer de memoria",
+      "detalle": "Daniela Jiménez · Sala 3",
+      "desde": null,
+      "hasta": null,
+      "horario": "",
+      "precio": "",
+      "url": "https://pinacoteca.udec.cl/exposiciones/"
+    },
+    {
+      "lugar": "pina",
+      "titulo": "Sostener la memoria del bosque",
+      "detalle": "Eduardo Filún Matus · Sala David Stitchkin",
+      "desde": null,
+      "hasta": null,
+      "horario": "",
+      "precio": "",
+      "url": "https://pinacoteca.udec.cl/exposiciones/"
+    },
+    {
+      "lugar": "pina",
+      "titulo": "Entre libros e imágenes",
+      "detalle": "100 años de las Bibliotecas UdeC (1926–2026) · Sala 1",
+      "desde": null,
+      "hasta": null,
+      "horario": "",
+      "precio": "",
+      "url": "https://pinacoteca.udec.cl/exposiciones/"
+    },
+    {
+      "lugar": "pina",
+      "titulo": "Flora",
+      "detalle": "100 años del natalicio de Julio Escámez",
+      "desde": null,
+      "hasta": null,
+      "horario": "",
+      "precio": "",
+      "url": "https://pinacoteca.udec.cl/exposiciones/"
+    },
+    {
+      "lugar": "pina",
+      "titulo": "Sueños",
+      "detalle": "Fotografía subacuática de Harry Fayt (Bélgica)",
+      "desde": "2026-10-21",
+      "hasta": null,
+      "horario": "",
+      "precio": "",
+      "url": "https://noticias.udec.cl/etiqueta/pinacoteca-udec/"
+    },
+    {
+      "lugar": "gh",
+      "titulo": "Sala Regional",
+      "detalle": "Historia del Biobío, de la época prehispánica al siglo XXI",
+      "desde": "2026-10-05",
+      "hasta": null,
+      "horario": "Mar a dom, 10:00–18:00",
+      "precio": "Gratis (aporte voluntario)",
+      "url": "https://www.ghconcepcion.cl/"
+    }
+  ],
+  "notas": [
+    "Casa del Arte UdeC abre de martes a viernes de 10:00 a 17:45, sábado hasta 16:45 y domingo hasta 13:45.",
+    "La agenda de UCSC está publicada solo hasta el 11 de noviembre. Su teatro familiar (Compañía El Rostro) suele presentarse los sábados a las 16:00.",
+    "Artistas del Acero suspendió sus actividades en noviembre de 2025. La Universidad del Bío-Bío no tiene eventos publicados para estas fechas."
+  ],
+  "fuentes": [
+    {
+      "nombre": "Teatro Biobío",
+      "url": "https://teatrobiobio.cl/noticias/"
+    },
+    {
+      "nombre": "Corcudec en Ticketplus",
+      "url": "https://ticketplus.cl/companies/corcudec"
+    },
+    {
+      "nombre": "Teatro UdeC en Ticketmaster",
+      "url": "https://www.ticketmaster.cl/page/home-teatro-universidad-de-concepcion"
+    },
+    {
+      "nombre": "Agenda UCSC",
+      "url": "https://ucsc.cl/eventos/"
+    },
+    {
+      "nombre": "Pinacoteca UdeC",
+      "url": "https://pinacoteca.udec.cl/exposiciones/"
+    },
+    {
+      "nombre": "Alianza Francesa",
+      "url": "https://www.afconcepcion.cl/eventos/"
+    },
+    {
+      "nombre": "Biblioteca Municipal",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/"
+    },
+    {
+      "nombre": "Galería de la Historia",
+      "url": "https://www.ghconcepcion.cl/"
+    }
+  ]
+}
