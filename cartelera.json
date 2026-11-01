@@ -217,226 +217,6 @@
       "tipo": "Teatro · +14",
       "precio": "$4.000",
       "url": "https://teatrobiobio.cl/razones-para-no-morir-festival-internacional-de-teatro-del-biobio/"
-    },
-    {
-      "fecha": "2026-11-09",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Azul",
-      "detalle": "Compañía <3 · teatro documental · FTB",
-      "tipo": "Teatro · +14",
-      "precio": "$4.000",
-      "url": "https://teatrobiobio.cl/azul-festival-internacional-de-teatro-del-biobio/"
-    },
-    {
-      "fecha": "2026-11-11",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "OU",
-      "detalle": "CRL – Central Elétrica (Portugal) · FTB",
-      "tipo": "Danza y teatro · +12",
-      "precio": "$4.000",
-      "url": "https://teatrobiobio.cl/ou-festival-internacional-de-teatro-del-biobio/"
-    },
-    {
-      "fecha": "2026-11-11",
-      "hora": "",
-      "lugar": "udec",
-      "sala": "Teatro UdeC",
-      "titulo": "Cerebro de Bebé",
-      "detalle": "Ignacio Socías",
-      "tipo": "Comedia",
-      "precio": "Ticketmaster",
-      "url": "https://www.ticketmaster.cl/page/home-teatro-universidad-de-concepcion"
-    },
-    {
-      "fecha": "2026-11-13",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Naturaleza sonora: Experiencia Nonguén",
-      "detalle": "Cecilia Gutiérrez y Fernando Matus de la Parra",
-      "tipo": "Música contemporánea",
-      "precio": "Gratis",
-      "url": "https://teatrobiobio.cl/naturaleza-sonora-experiencia-nonguen/"
-    },
-    {
-      "fecha": "2026-11-14",
-      "hora": "19:00",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Mister Shakespeare",
-      "detalle": "Marco Antonio de la Parra",
-      "tipo": "Teatro · +16",
-      "precio": "$12.000 / $9.000",
-      "url": "https://teatrobiobio.cl/mister-shakespeare/"
-    },
-    {
-      "fecha": "2026-11-14",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Nektar Machine: Náutica",
-      "detalle": "Lanzamiento de disco",
-      "tipo": "Música",
-      "precio": "$7.000 / $5.000",
-      "url": "https://teatrobiobio.cl/nektar-machine/"
-    },
-    {
-      "fecha": "2026-11-15",
-      "hora": "",
-      "lugar": "udec",
-      "sala": "Teatro UdeC",
-      "titulo": "León Gieco",
-      "detalle": "",
-      "tipo": "Música",
-      "precio": "Ticketmaster",
-      "url": "https://www.ticketmaster.cl/page/home-teatro-universidad-de-concepcion"
-    },
-    {
-      "fecha": "2026-11-17",
-      "hora": "19:00",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Festival Nacional de Big Band Juveniles",
-      "detalle": "",
-      "tipo": "Música",
-      "precio": "Gratis",
-      "url": "https://teatrobiobio.cl/festival-nacional-de-big-band-juveniles/"
-    },
-    {
-      "fecha": "2026-11-19",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Cambio de turno",
-      "detalle": "Teatro de Masas · dir. Pablo Villablanca",
-      "tipo": "Teatro · +10",
-      "precio": "$7.000 / $5.000",
-      "url": "https://teatrobiobio.cl/cambio-de-turno/"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Cambio de turno",
-      "detalle": "Teatro de Masas · dir. Pablo Villablanca",
-      "tipo": "Teatro · +10",
-      "precio": "$7.000 / $5.000",
-      "url": "https://teatrobiobio.cl/cambio-de-turno/"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "19:00",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Mama Choclo",
-      "detalle": "Concierto teatral · Cía. Imaginaria",
-      "tipo": "Familiar · +5",
-      "precio": "$3.000",
-      "url": "https://teatrobiobio.cl/mama-choclo/"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "19:00",
-      "lugar": "udec",
-      "sala": "Teatro UdeC",
-      "titulo": "Sinfónico 11: Hacia el nuevo horizonte",
-      "detalle": "Bruch, Respighi · dir. Luis Toro Araya · Raquel Areal, violín",
-      "tipo": "Orquesta Sinfónica UdeC",
-      "precio": "desde $3.600",
-      "url": "https://ticketplus.cl/events/sinfonico-11-hacia-el-nuevo-horizonte"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "19:00",
-      "lugar": "udec",
-      "sala": "Teatro UdeC",
-      "titulo": "Sinfónico 11: Hacia el nuevo horizonte",
-      "detalle": "Bruch, Respighi · dir. Luis Toro Araya · Raquel Areal, violín",
-      "tipo": "Orquesta Sinfónica UdeC",
-      "precio": "desde $3.600",
-      "url": "https://ticketplus.cl/events/sinfonico-11-hacia-el-nuevo-horizonte"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Cambio de turno",
-      "detalle": "Teatro de Masas · dir. Pablo Villablanca",
-      "tipo": "Teatro · +10",
-      "precio": "$7.000 / $5.000",
-      "url": "https://teatrobiobio.cl/cambio-de-turno/"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "19:00",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Catalina y las bordonas de oro",
-      "detalle": "",
-      "tipo": "Música",
-      "precio": "$13.000 – $30.000",
-      "url": "https://teatrobiobio.cl/catalina-y-las-bordonas-de-oro/"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "",
-      "lugar": "bib",
-      "sala": "Biblioteca Municipal de Concepción",
-      "titulo": "Fiesta del Libro (3ª edición)",
-      "detalle": "Editoriales regionales, talleres y cuentacuentos",
-      "tipo": "Libros · familiar",
-      "precio": "Gratis",
-      "url": "https://www.diarioconcepcion.cl/cultura/2026/10/16/biblioteca-municipal-penquista-reunira-editoriales-fiesta-del-libro.html"
-    },
-    {
-      "fecha": "2026-11-22",
-      "hora": "14:00",
-      "lugar": "af",
-      "sala": "Calle Colo Colo",
-      "titulo": "Fiesta de la Música 2026",
-      "detalle": "Música en vivo en la calle",
-      "tipo": "Música · al aire libre",
-      "precio": "Gratis",
-      "url": "https://www.afconcepcion.cl/eventos/"
-    },
-    {
-      "fecha": "2026-11-27",
-      "hora": "20:00",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Carta de amor",
-      "detalle": "DOSEL · dir. Cristian Reinas",
-      "tipo": "Interdisciplina · +13",
-      "precio": "Gratis",
-      "url": "https://teatrobiobio.cl/carta-de-amor/"
-    },
-    {
-      "fecha": "2026-11-28",
-      "hora": "20:00",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Carta de amor",
-      "detalle": "DOSEL · dir. Cristian Reinas",
-      "tipo": "Interdisciplina · +13",
-      "precio": "Gratis",
-      "url": "https://teatrobiobio.cl/carta-de-amor/"
-    },
-    {
-      "fecha": "2026-11-28",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Folie",
-      "detalle": "Brumachon y Lamarche · Compagnie Sous la Peau",
-      "tipo": "Danza",
-      "precio": "Gratis",
-      "url": "https://teatrobiobio.cl/folie/"
     }
   ],
   "exposiciones": [
@@ -478,7 +258,7 @@
       "hasta": null,
       "horario": "",
       "precio": "",
-      "url": ""
+      "url": "https://ucsc.cl/eventos/inauguracion-de-la-exposicion-lo-que-el-agua-revela-de-la-acuarelista-micaelina-campos/"
     },
     {
       "lugar": "pina",
@@ -488,7 +268,7 @@
       "hasta": "2026-11-29",
       "horario": "",
       "precio": "",
-      "url": "https://pinacoteca.udec.cl/exposiciones/"
+      "url": "https://pinacoteca.udec.cl/expos_pinacoteca/espacios-de-identidad-mediaciones-artisticas-patrimoniales-con-la-coleccion-pinacoteca-udec/"
     },
     {
       "lugar": "pina",
@@ -508,7 +288,7 @@
       "hasta": null,
       "horario": "",
       "precio": "",
-      "url": "https://pinacoteca.udec.cl/exposiciones/"
+      "url": "https://pinacoteca.udec.cl/expos_pinacoteca/exposicion-sostener-la-memoria-del-bosque-eduardo-filun-matus/"
     },
     {
       "lugar": "pina",
@@ -518,7 +298,7 @@
       "hasta": null,
       "horario": "",
       "precio": "",
-      "url": "https://pinacoteca.udec.cl/exposiciones/"
+      "url": "https://pinacoteca.udec.cl/expos_pinacoteca/entre-libros-e-imagenes-100-anos-bibliotecas-de-la-universidad-de-concepcion-1926-2026/"
     },
     {
       "lugar": "pina",
@@ -528,7 +308,17 @@
       "hasta": null,
       "horario": "",
       "precio": "",
-      "url": "https://pinacoteca.udec.cl/exposiciones/"
+      "url": "https://pinacoteca.udec.cl/expos_pinacoteca/flora-100-anos-del-natalicio-de-julio-escamez-1925-2025/"
+    },
+    {
+      "lugar": "pina",
+      "titulo": "Pegado, pegado a las rocas, al mar y a las montañas",
+      "detalle": "Claudio Bernal Abarza",
+      "desde": "2026-08-13",
+      "hasta": null,
+      "horario": "",
+      "precio": "",
+      "url": "https://pinacoteca.udec.cl/expos_pinacoteca/pegado-pegado-a-las-rocas-al-mar-y-a-las-montanas-de-claudio-bernal-abarza/"
     },
     {
       "lugar": "pina",
@@ -538,7 +328,7 @@
       "hasta": null,
       "horario": "",
       "precio": "",
-      "url": "https://noticias.udec.cl/etiqueta/pinacoteca-udec/"
+      "url": "https://noticias.udec.cl/pinacoteca-inaugura-suenos-exposicion-del-fotografo-belga-harry-fayt/"
     },
     {
       "lugar": "gh",
@@ -552,9 +342,10 @@
     }
   ],
   "notas": [
+    "Festival BioBioCine (12ª edición, gratis): 2 al 7 de noviembre en Teatro UdeC, Aula Magna, Alianza Francesa, Teatro Biobío y otros espacios. Solo se incluyen las funciones con horario confirmado (Teatro Biobío); el resto de la programación está en el sitio del festival.",
+    "Las fichas de Ticketmaster del Teatro UdeC no se pudieron leer; no hay eventos externos confirmados en el teatro para esta semana fuera de BioBioCine.",
     "Casa del Arte UdeC abre de martes a viernes de 10:00 a 17:45, sábado hasta 16:45 y domingo hasta 13:45.",
-    "La agenda de UCSC está publicada solo hasta el 11 de noviembre. Su teatro familiar (Compañía El Rostro) suele presentarse los sábados a las 16:00.",
-    "Artistas del Acero suspendió sus actividades en noviembre de 2025. La Universidad del Bío-Bío no tiene eventos publicados para estas fechas."
+    "La Biblioteca Municipal no tiene publicada su agenda de noviembre (el calendario del sitio está en imagen). La Universidad del Bío-Bío no tiene eventos publicados."
   ],
   "fuentes": [
     {
@@ -564,6 +355,10 @@
     {
       "nombre": "Corcudec en Ticketplus",
       "url": "https://ticketplus.cl/companies/corcudec"
+    },
+    {
+      "nombre": "Teatro Biobío en Ticketplus",
+      "url": "https://ticketplus.cl/en/companies/teatro-biobio"
     },
     {
       "nombre": "Teatro UdeC en Ticketmaster",
@@ -588,6 +383,10 @@
     {
       "nombre": "Galería de la Historia",
       "url": "https://www.ghconcepcion.cl/"
+    },
+    {
+      "nombre": "BioBioCine 2026 (El Desconcierto)",
+      "url": "https://eldesconcierto.cl/tendencias/biobiocine-2026-80-filmes-gratuitos-memoria-resistencia-y-naturaleza-llegan-concepcion-noviembre-n5463562"
     }
   ]
 }
