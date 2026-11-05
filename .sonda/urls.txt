@@ -1,6 +1,5 @@
-c2955.js https://www.corcudec.cl/_next/static/chunks/2955-63ee6c8e0fdd7db9.js
-c9363.js https://www.corcudec.cl/_next/static/chunks/9363-d177eec8571b2486.js
-c1255.js https://www.corcudec.cl/_next/static/chunks/1255-5dce200a6223daac.js
-csinf.js https://www.corcudec.cl/_next/static/chunks/app/programacion/sinfonica/page-b3e7ac37a7128385.js
-tpe_visitas.html https://ticketplus.cl/events/visitas-guiadas-noviembre-2026-11-14-16-00-00-0300
-tp_search.html https://ticketplus.cl/events/search?q=teatro+universidad+de+concepcion
+d_programas.json https://drupal.corcudec.cl/api/programas
+d_programa151.json https://drupal.corcudec.cl/api/programa/151
+d_carruseles.json https://drupal.corcudec.cl/api/carruseles
+d_noticias.json https://drupal.corcudec.cl/api/noticias
+d_paginas.json https://drupal.corcudec.cl/api/paginas
