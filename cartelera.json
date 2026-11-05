@@ -263,7 +263,9 @@
       "url": "https://www.ghconcepcion.cl/index.php/2026/10/07/galeria-de-la-historia-de-concepcion-inaugura-un-nuevo-espacio-la-sala-regional/"
     }
   ],
-  "notas": [],
+  "notas": [
+    "Alianza Francesa: su sitio no respondió hoy; se muestra la última información disponible."
+  ],
   "_diagnostico": {
     "Ticketmaster: Once": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once: HTTP 403",
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
@@ -273,8 +275,8 @@
     "Teatro Biobío (sitio)": "ok: 0 funciones, 2 exposiciones",
     "UCSC": "ok: 6 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-05&end_date=2026-11-11%2023:59&per_page=50: HTTP 404",
-    "Alianza Francesa": "ok: 1 funciones, 0 exposiciones",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-05&end_date=2026-11-11%2023:59&per_page=50: fetch failed",
+    "Alianza Francesa": "error: https://www.afconcepcion.cl/eventos/: fetch failed",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones"
   },
   "fuentes": [
