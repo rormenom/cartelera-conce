@@ -1,0 +1,49 @@
+name: sonda
+on:
+  push:
+    branches: [sonda]
+permissions:
+  contents: write
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar páginas
+        run: |
+          mkdir -p sonda
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            code=$(curl -sSL -A "$UA" -m 40 -o "sonda/$name" -w '%{http_code} %{content_type} %{url_effective}' "$url" 2>&1) || true
+            echo "$name $code" >> sonda/_estado.txt
+          done <<'LIST'
+          pagina.html https://www2.udec.cl/~rormeno/cartelera/
+          tbb_home.html https://teatrobiobio.cl/
+          tbb_cartelera.html https://teatrobiobio.cl/cartelera/
+          tbb_wp_types.json https://teatrobiobio.cl/wp-json/wp/v2/types
+          tbb_tribe.json https://teatrobiobio.cl/wp-json/tribe/events/v1/events?per_page=50
+          tp_tbb.html https://ticketplus.cl/companies/teatro-biobio
+          tp_corcudec.html https://ticketplus.cl/companies/corcudec
+          corcudec_home.html https://www.corcudec.cl/
+          corcudec_wp_types.json https://www.corcudec.cl/wp-json/wp/v2/types
+          ucsc_eventos.html https://ucsc.cl/eventos/
+          ucsc_wp_types.json https://ucsc.cl/wp-json/wp/v2/types
+          ucsc_tribe.json https://ucsc.cl/wp-json/tribe/events/v1/events?per_page=50
+          culturaucsc.html https://culturaucsc.cl/
+          culturaucsc_wp_types.json https://culturaucsc.cl/wp-json/wp/v2/types
+          pina_expos.html https://pinacoteca.udec.cl/exposiciones/
+          pina_home.html https://pinacoteca.udec.cl/
+          pina_wp_types.json https://pinacoteca.udec.cl/wp-json/wp/v2/types
+          af_eventos.html https://www.afconcepcion.cl/eventos/
+          af_wp_types.json https://www.afconcepcion.cl/wp-json/wp/v2/types
+          af_tribe.json https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?per_page=50
+          gh_home.html https://www.ghconcepcion.cl/
+          gh_wp_types.json https://www.ghconcepcion.cl/wp-json/wp/v2/types
+          LIST
+          cat sonda/_estado.txt
+      - name: Guardar
+        run: |
+          git config user.name "cartelera-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sonda && git commit -m "sonda" && git push
