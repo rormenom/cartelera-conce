@@ -15,7 +15,7 @@ jobs:
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
           while read -r name url; do
             [ -z "$name" ] && continue
-            code=$(curl -sSL -A "$UA" -m 90 --ciphers 'DEFAULT@SECLEVEL=0' -o "sonda/$name" -w '%{http_code} %{content_type} %{url_effective} %{time_total}s' "$url" 2>&1) || true
+            code=$(curl -sSL -A "$UA" -m 60 --ciphers 'DEFAULT@SECLEVEL=0' -o "sonda/$name" -w '%{http_code} %{content_type} %{url_effective} %{time_total}s' "$url" 2>&1) || true
             echo "$name $code" >> sonda/_estado.txt
           done < .sonda/urls.txt
           cat sonda/_estado.txt

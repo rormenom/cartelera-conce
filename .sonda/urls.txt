@@ -1,5 +1,3 @@
-d_programas.json https://drupal.corcudec.cl/api/programas
-d_programa151.json https://drupal.corcudec.cl/api/programa/151
-d_carruseles.json https://drupal.corcudec.cl/api/carruseles
-d_noticias.json https://drupal.corcudec.cl/api/noticias
-d_paginas.json https://drupal.corcudec.cl/api/paginas
+af_eventos.html https://www.afconcepcion.cl/eventos/
+af_home.html https://www.afconcepcion.cl/
+af_types.json https://www.afconcepcion.cl/wp-json/wp/v2/types
