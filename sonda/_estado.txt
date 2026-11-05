@@ -1,5 +1,3 @@
-d_programas.json 200 application/json https://drupal.corcudec.cl/api/programas 0.945935s
-d_programa151.json 200 application/json https://drupal.corcudec.cl/api/programa/151 0.701045s
-d_carruseles.json 200 application/json https://drupal.corcudec.cl/api/carruseles 0.687949s
-d_noticias.json 200 application/json https://drupal.corcudec.cl/api/noticias 0.579006s
-d_paginas.json 200 application/json https://drupal.corcudec.cl/api/paginas 1.166900s
+af_eventos.html 200 text/html; charset=UTF-8 https://www.afconcepcion.cl/eventos/ 3.565318s
+af_home.html 200 text/html; charset=UTF-8 https://www.afconcepcion.cl/ 2.477716s
+af_types.json 200 application/json; charset=UTF-8 https://www.afconcepcion.cl/wp-json/wp/v2/types 1.963863s
