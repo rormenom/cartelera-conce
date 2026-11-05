@@ -1,0 +1,28 @@
+pagina.html curl: (35) TLS connect error: error:0A00018A:SSL routines::dh key too small
+000  https://www2.udec.cl/~rormeno/cartelera/
+tbb_home.html 200 text/html; charset=UTF-8 https://teatrobiobio.cl/
+tbb_cartelera.html 200 text/html; charset=UTF-8 https://teatrobiobio.cl/cartelera/
+tbb_wp_types.json 200 application/json; charset=UTF-8 https://teatrobiobio.cl/wp-json/wp/v2/types
+tbb_tribe.json 404 application/json; charset=UTF-8 https://teatrobiobio.cl/wp-json/tribe/events/v1/events?per_page=50
+tp_tbb.html 200 text/html; charset=utf-8 https://ticketplus.cl/companies/teatro-biobio
+tp_corcudec.html 200 text/html; charset=utf-8 https://ticketplus.cl/companies/corcudec
+corcudec_home.html 200 text/html https://www.corcudec.cl/
+corcudec_wp_types.json 404 text/html https://www.corcudec.cl/wp-json/wp/v2/types
+ucsc_eventos.html 200 text/html; charset=UTF-8 https://ucsc.cl/eventos/
+ucsc_wp_types.json 200 application/json; charset=UTF-8 https://ucsc.cl/wp-json/wp/v2/types
+ucsc_tribe.json 404 application/json; charset=UTF-8 https://ucsc.cl/wp-json/tribe/events/v1/events?per_page=50
+culturaucsc.html curl: (6) Could not resolve host: culturaucsc.cl
+000  https://culturaucsc.cl/
+culturaucsc_wp_types.json curl: (6) Could not resolve host: culturaucsc.cl
+000  https://culturaucsc.cl/wp-json/wp/v2/types
+pina_expos.html 200 text/html; charset=UTF-8 https://pinacoteca.udec.cl/exposiciones/
+pina_home.html 200 text/html; charset=UTF-8 https://pinacoteca.udec.cl/
+pina_wp_types.json 200 application/json; charset=UTF-8 https://pinacoteca.udec.cl/wp-json/wp/v2/types
+af_eventos.html curl: (28) Connection timed out after 40001 milliseconds
+000  https://www.afconcepcion.cl/eventos/
+af_wp_types.json curl: (28) Connection timed out after 40000 milliseconds
+000  https://www.afconcepcion.cl/wp-json/wp/v2/types
+af_tribe.json curl: (28) Connection timed out after 40002 milliseconds
+000  https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?per_page=50
+gh_home.html 200 text/html; charset=UTF-8 https://www.ghconcepcion.cl/
+gh_wp_types.json 200 application/json; charset=UTF-8 https://www.ghconcepcion.cl/wp-json/wp/v2/types
