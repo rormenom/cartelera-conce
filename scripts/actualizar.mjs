@@ -128,7 +128,7 @@ function precioTicketplus(ld) {
 
 function partirTitulo(t) {
   // "Razones para no morir: Festival Internacional de Teatro del Biobío" -> título + detalle
-  const m = t.match(/^(.{3,}?):\s+(.{3,})$/);
+  const m = t.match(/^(.{1,}?):\s+(.{3,})$/);
   if (m && /festival|ciclo|temporada|hecho en biobio|biobiocine/i.test(normal(m[2]))) return { titulo: m[1], detalle: m[2] };
   return { titulo: t.replace(/\s+-\s+Teatro Biob[ií]o$/i, ""), detalle: "" };
 }
@@ -392,6 +392,7 @@ async function alianza() {
     }
     return { eventos, expos };
   } catch (e) {
+    diagnostico["Alianza Francesa (API)"] = "no disponible: " + e.message;
     const html = await traer("https://www.afconcepcion.cl/eventos/", { timeout: 25000, intentos: 1 });
     // Formato genérico: buscar bloques con fecha "dd de mes" y un título enlazado
     for (const m of html.matchAll(/<a[^>]+href="(https:\/\/www\.afconcepcion\.cl\/[^"]+)"[^>]*>([^<]{6,140})<\/a>[\s\S]{0,600}?(\d{1,2})\s+de\s+([a-záé]+)(?:\s+de\s+(\d{4}))?[\s\S]{0,80}?(\d{1,2}:\d{2})?/gi)) {
@@ -449,7 +450,7 @@ async function ticketplusYCorcudec() {
     if (!ses.length) {
       try { const ld = ldEvent(await traer(p.link, { intentos: 1, timeout: 20000 }));
         if (ld?.startDate) ses = [{ fecha: ld.startDate.slice(0, 10), hora: (ld.startDate.match(/T(\d{2}:\d{2})/) || [])[1] || "" }]; }
-      catch { /* Ticketmaster suele bloquear lectores automáticos */ }
+      catch (e) { diagnostico["Ticketmaster: " + p.titulo] = e.message; }
     }
     for (const x of ses) if (enVentana(x.fecha))
       eventos.push({ fecha: x.fecha, hora: x.hora, lugar: "udec", sala: "Teatro UdeC", titulo: p.titulo, detalle: p.programa, tipo: tipoDe(p.programa + " " + p.titulo), precio: "", url: p.link });
@@ -459,9 +460,10 @@ async function ticketplusYCorcudec() {
 
 const fallaron = new Set();
 
+const diagnostico = {};
 async function seguro(nombre, clave, fn) {
-  try { const r = await fn(); log(`${nombre}: ${r.eventos.length} funciones, ${r.expos.length} exposiciones`); return r; }
-  catch (e) { log(`${nombre} FALLÓ: ${e.message}`); fallaron.add(clave); return { eventos: [], expos: [] }; }
+  try { const r = await fn(); diagnostico[nombre] = `ok: ${r.eventos.length} funciones, ${r.expos.length} exposiciones`; log(nombre, diagnostico[nombre]); return r; }
+  catch (e) { diagnostico[nombre] = `error: ${e.message}`; log(nombre, diagnostico[nombre]); fallaron.add(clave); return { eventos: [], expos: [] }; }
 }
 
 function dedupe(lista, clave) {
@@ -523,6 +525,7 @@ async function main() {
     eventos: eventos.map(({ fecha, hora, lugar, sala, titulo, detalle, tipo, precio, url }) => ({ fecha, hora: hora || "", lugar, sala: sala || "", titulo, detalle: detalle || "", tipo: tipo || "", precio: precio || "", url: url || "" })),
     exposiciones: expos.map(({ lugar, titulo, detalle, desde, hasta, horario, precio, url }) => ({ lugar, titulo, detalle: detalle || "", desde: desde || null, hasta: hasta || null, horario: horario || "", precio: precio || "", url: url || "" })),
     notas,
+    _diagnostico: diagnostico,
     fuentes: [
       { nombre: "Ticketplus Teatro Biobío", url: "https://ticketplus.cl/companies/teatro-biobio" },
       { nombre: "Teatro Biobío", url: "https://teatrobiobio.cl/" },
