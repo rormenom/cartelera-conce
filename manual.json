@@ -1,0 +1,28 @@
+{
+  "_ayuda": "Agrega aquí lo que los sitios no publican bien. Se muestra solo mientras cae dentro de los 7 días. Copia un ejemplo, cambia los datos y borra los ejemplos que no uses. Lugares: tbb, udec, ucsc, pina, af, gh.",
+  "eventos": [
+    {
+      "fecha": "2000-01-01",
+      "hora": "19:00",
+      "lugar": "af",
+      "sala": "Auditorio",
+      "titulo": "EJEMPLO (no se muestra porque la fecha ya pasó)",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "Gratis",
+      "url": ""
+    }
+  ],
+  "exposiciones": [
+    {
+      "lugar": "af",
+      "titulo": "EJEMPLO (no se muestra porque ya terminó)",
+      "detalle": "",
+      "desde": "2000-01-01",
+      "hasta": "2000-01-31",
+      "horario": "",
+      "precio": "Gratis",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+name: Actualizar cartelera
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # todos los días, 06:17 en Chile (horario de verano; 05:17 en invierno)
+  workflow_dispatch:        # botón "Run workflow" en la pestaña Actions
+  push:
+    branches: [main]
+    paths: ["scripts/**", "manual.json", ".github/workflows/actualizar.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cartelera
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Leer los sitios y regenerar cartelera.json
+        run: node scripts/actualizar.mjs
+      - name: Validar el JSON
+        run: node -e "const d=require('./cartelera.json'); if(!d.actualizado||!Array.isArray(d.eventos)) process.exit(1)"
+      - name: Subir cambios
+        run: |
+          git config user.name "cartelera-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cartelera.json
+          git diff --cached --quiet && { echo "Sin cambios"; exit 0; }
+          git commit -m "Cartelera $(TZ=America/Santiago date +%F)"
+          git pull --rebase -X theirs origin main || true
+          git push
