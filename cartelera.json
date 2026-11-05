@@ -153,8 +153,8 @@
       "hora": "19:30",
       "lugar": "tbb",
       "sala": "Sala de Cámara",
-      "titulo": "Ou: Festival Internacional de Teatro del Biobío",
-      "detalle": "",
+      "titulo": "Ou",
+      "detalle": "Festival Internacional de Teatro del Biobío",
       "tipo": "Teatro",
       "precio": "$4.428",
       "url": "https://ticketplus.cl/events/ou-festival-internacional-de-teatro-del-biobio"
@@ -253,6 +253,19 @@
     }
   ],
   "notas": [],
+  "_diagnostico": {
+    "Ticketmaster: Once": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once: HTTP 403",
+    "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
+    "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
+    "Ticketmaster: D-Cámara: M8ZART": "https://www.ticketmaster.cl/event/concierto-d-camara-m8zart-teatro-universidad-de-concepcion: HTTP 403",
+    "Ticketplus/Corcudec": "ok: 6 funciones, 0 exposiciones",
+    "Teatro Biobío (sitio)": "ok: 0 funciones, 2 exposiciones",
+    "UCSC": "ok: 6 funciones, 0 exposiciones",
+    "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-05&end_date=2026-11-11%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa": "ok: 0 funciones, 0 exposiciones",
+    "Galería de la Historia": "ok: 0 funciones, 2 exposiciones"
+  },
   "fuentes": [
     {
       "nombre": "Ticketplus Teatro Biobío",
