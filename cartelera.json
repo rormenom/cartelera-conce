@@ -149,6 +149,17 @@
       "url": "https://ticketplus.cl/events/azul-festival-internacional-de-teatro-del-biobio"
     },
     {
+      "fecha": "2026-11-10",
+      "hora": "19:00",
+      "lugar": "af",
+      "sala": "Sala de teatro",
+      "titulo": "Ciclo de cine Pensar Sentir Mostrar",
+      "detalle": "Le garçon",
+      "tipo": "Cine",
+      "precio": "Gratis",
+      "url": "https://www.afconcepcion.cl/eventos/"
+    },
+    {
       "fecha": "2026-11-11",
       "hora": "19:30",
       "lugar": "tbb",
@@ -263,7 +274,7 @@
     "UCSC": "ok: 6 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
     "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-05&end_date=2026-11-11%2023:59&per_page=50: HTTP 404",
-    "Alianza Francesa": "ok: 0 funciones, 0 exposiciones",
+    "Alianza Francesa": "ok: 1 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones"
   },
   "fuentes": [
