@@ -393,15 +393,41 @@ async function alianza() {
     return { eventos, expos };
   } catch (e) {
     diagnostico["Alianza Francesa (API)"] = "no disponible: " + e.message;
-    const html = await traer("https://www.afconcepcion.cl/eventos/", { timeout: 25000, intentos: 1 });
-    // Formato genérico: buscar bloques con fecha "dd de mes" y un título enlazado
-    for (const m of html.matchAll(/<a[^>]+href="(https:\/\/www\.afconcepcion\.cl\/[^"]+)"[^>]*>([^<]{6,140})<\/a>[\s\S]{0,600}?(\d{1,2})\s+de\s+([a-záé]+)(?:\s+de\s+(\d{4}))?[\s\S]{0,80}?(\d{1,2}:\d{2})?/gi)) {
-      const mes = mesNum(m[4]); if (!mes) continue;
-      const fecha = m[5] ? `${m[5]}-${pad(mes)}-${pad(m[3])}` : conAnio(Number(m[3]), mes);
-      if (enVentana(fecha)) eventos.push({ fecha, hora: m[6] ? m[6].padStart(5, "0") : "", lugar: "af", sala: "", titulo: decode(m[2]).trim(), detalle: "", tipo: tipoDe(m[2]), precio: "", url: m[1] });
-    }
-    return { eventos, expos };
+    const html = await traer("https://www.afconcepcion.cl/eventos/", { timeout: 40000, intentos: 2 });
+    return { eventos: eventosAF(html), expos };
   }
+}
+
+// La página de eventos de la Alianza no trae fechas estructuradas: se leen del texto de cada aviso.
+const AF_NO = /curso|inscripci|resultados|delf|dalf|tcf|gael|vacaciones|taller|oferta|migra|s[uú]mate|spotify|ganadores|apoderados|puertas abiertas/i;
+const WD_ES = ["domingo", "lunes", "martes", "miercoles", "jueves", "viernes", "sabado"];
+function eventosAF(html) {
+  const out = [];
+  const bloques = html.split(/<div class="event">/).slice(1);
+  for (const b of bloques) {
+    const titulo = linea((b.match(/<h3 class="event_title">([\s\S]*?)<\/h3>/) || [])[1] || "");
+    if (!titulo || AF_NO.test(titulo)) continue;
+    const etiquetas = linea((b.match(/<p class="event_type">([\s\S]*?)<\/p>/) || [])[1] || "");
+    const cuerpo = texto(b.split(/<h3 class="event_title">/)[1] || "").replace(/\n/g, " ");
+    const enlace = (b.match(/href="(https:\/\/www\.afconcepcion\.cl\/(?!archivos)[^"#]+)"/) || [])[1] || "https://www.afconcepcion.cl/eventos/";
+    const re = new RegExp(`(?:(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo)\\s+)?(\\d{1,2})\\s+de\\s+${MES_RE}(?:\\s+(?:de\\s+)?(\\d{4}))?([^.!?\\n]{0,70})`, "gi");
+    const vistas = new Set();
+    for (const m of cuerpo.matchAll(re)) {
+      const mes = mesNum(m[3]); if (!mes) continue;
+      const fecha = m[4] ? `${m[4]}-${pad(mes)}-${pad(m[2])}` : conAnio(Number(m[2]), mes);
+      if (m[1]) { const wd = WD_ES[new Date(fecha + "T12:00:00Z").getUTCDay()]; if (normal(m[1]) !== wd) continue; } // aviso de otro año
+      if (!enVentana(fecha)) continue;
+      const hm = m[5].match(/(\d{1,2})[:.](\d{2})|(\d{1,2})\s*(?:h\b|hrs|horas)/i);
+      const h = hm ? [null, hm[1] || hm[3], hm[2] || "00"] : null;
+      if (vistas.has(fecha)) { const prev = out.find(e => e.fecha === fecha && e.titulo === titulo); if (prev && !prev.hora && h) prev.hora = `${pad(h[1])}:${h[2] || "00"}`; continue; }
+      vistas.add(fecha);
+      const precio = /gratuit|gratis|liberad/i.test(etiquetas + " " + cuerpo) ? "Gratis" : "";
+      const peli = (cuerpo.match(/Exhibimos\s+([^,(]{2,60})/i) || [])[1];
+      const sala = /sala de teatro/i.test(cuerpo) ? "Sala de teatro" : "";
+      out.push({ fecha, hora: h ? `${pad(h[1])}:${h[2] || "00"}` : "", lugar: "af", sala, titulo, detalle: peli ? peli.replace(/,?\s*dirigida.*$/i, "").trim() : "", tipo: tipoDe(titulo + " " + etiquetas), precio, url: enlace });
+    }
+  }
+  return out;
 }
 
 // ---------------------------------------------------------------- armado
