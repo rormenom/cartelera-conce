@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-05",
+  "actualizado": "2026-11-06",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -27,39 +27,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-05",
-      "hora": "09:30",
-      "lugar": "ucsc",
-      "sala": "Auditorio Santa Teresa de Jesús de Ávila, Campus San Andrés UCSC",
-      "titulo": "Encuentro con la actriz Sara Becker",
-      "detalle": "Carrera de Dirección Audiovisual y Multimedia UCSC",
-      "tipo": "Conversatorio",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/conversatorio-encuentro-con-la-actriz-sara-becker/"
-    },
-    {
-      "fecha": "2026-11-05",
-      "hora": "19:00",
-      "lugar": "ucsc",
-      "sala": "Sala de Exposiciones, Centro de Extensión UCSC",
-      "titulo": "Inauguración «Lo que el agua revela» · Micaelina Campos",
-      "detalle": "",
-      "tipo": "Artes visuales",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/inauguracion-de-la-exposicion-lo-que-el-agua-revela-de-la-acuarelista-micaelina-campos/"
-    },
-    {
-      "fecha": "2026-11-05",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Antígona del pueblo Pez",
-      "detalle": "Festival Internacional de Teatro del Biobío",
-      "tipo": "Teatro",
-      "precio": "$4.428",
-      "url": "https://ticketplus.cl/events/antigona-del-pueblo-pez-festival-internacional-de-teatro-del-biobio"
-    },
     {
       "fecha": "2026-11-06",
       "hora": "11:00",
@@ -169,6 +136,17 @@
       "tipo": "Teatro",
       "precio": "$4.428",
       "url": "https://ticketplus.cl/events/ou-festival-internacional-de-teatro-del-biobio"
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "18:00",
+      "lugar": "ucsc",
+      "sala": "",
+      "titulo": "Charla “Prácticas sociales y configuración del espacio Urbano 1910-1950”",
+      "detalle": "Galería de la Historia Concepción",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/charla-practicas-sociales-y-configuracion-del-espacio-urbano-1910-1950/"
     }
   ],
   "exposiciones": [
@@ -263,20 +241,18 @@
       "url": "https://www.ghconcepcion.cl/index.php/2026/10/07/galeria-de-la-historia-de-concepcion-inaugura-un-nuevo-espacio-la-sala-regional/"
     }
   ],
-  "notas": [
-    "Alianza Francesa: su sitio no respondió hoy; se muestra la última información disponible."
-  ],
+  "notas": [],
   "_diagnostico": {
     "Ticketmaster: Once": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once: HTTP 403",
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
     "Ticketmaster: D-Cámara: M8ZART": "https://www.ticketmaster.cl/event/concierto-d-camara-m8zart-teatro-universidad-de-concepcion: HTTP 403",
-    "Ticketplus/Corcudec": "ok: 6 funciones, 0 exposiciones",
+    "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
     "Teatro Biobío (sitio)": "ok: 0 funciones, 2 exposiciones",
-    "UCSC": "ok: 6 funciones, 0 exposiciones",
+    "UCSC": "ok: 5 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-05&end_date=2026-11-11%2023:59&per_page=50: fetch failed",
-    "Alianza Francesa": "error: https://www.afconcepcion.cl/eventos/: fetch failed",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-06&end_date=2026-11-12%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa": "ok: 1 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones"
   },
   "fuentes": [
