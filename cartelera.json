@@ -40,14 +40,14 @@
     },
     {
       "fecha": "2026-11-06",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "The very last northern rhino",
-      "detalle": "Festival Internacional de Teatro del Biobío",
-      "tipo": "Teatro",
-      "precio": "$4.428",
-      "url": "https://ticketplus.cl/events/the-very-last-northern-rhino-festival-internacional-de-teatro-del-biobio"
+      "hora": "11:00",
+      "lugar": "ucsc",
+      "sala": "Salón multiuso, Parque Museo Pedro del Río Zañartu",
+      "titulo": "Conferencias “Pedro del Río Zañartu: vida, obra y legado cultural”",
+      "detalle": "Facultad de Comunicación, Historia y Ciencias Sociales e Instituto Tecnológico Sede Talcahuano de la UCSC",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/conferencias-pedro-del-rio-zanartu-vida-obra-y-legado-cultural/"
     },
     {
       "fecha": "2026-11-06",
@@ -59,6 +59,17 @@
       "tipo": "Música",
       "precio": "",
       "url": "https://ucsc.cl/eventos/concierto-ucsc-en-sinfonia-donde-la-excelencia-se-hace-musica/"
+    },
+    {
+      "fecha": "2026-11-07",
+      "hora": "15:00",
+      "lugar": "tbb",
+      "sala": "Café TBB",
+      "titulo": "Taller de Croquis: de la mirada al papel",
+      "detalle": "",
+      "tipo": "",
+      "precio": "",
+      "url": "https://teatrobiobio.cl/taller-de-croquis-de-la-mirada-al-papel/"
     },
     {
       "fecha": "2026-11-07",
@@ -95,6 +106,17 @@
     },
     {
       "fecha": "2026-11-07",
+      "hora": "18:00",
+      "lugar": "tbb",
+      "sala": "Aurora de Chile, Concepción",
+      "titulo": "TBB en tu barrio: Las voces de Víctor",
+      "detalle": "",
+      "tipo": "",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/tbb-en-tu-barrio-las-voces-de-victor/"
+    },
+    {
+      "fecha": "2026-11-07",
       "hora": "19:30",
       "lugar": "tbb",
       "sala": "Sala Principal",
@@ -103,6 +125,17 @@
       "tipo": "Teatro",
       "precio": "$4.428",
       "url": "https://ticketplus.cl/events/razones-para-no-morir-festival-internacional-de-teatro-del-biobio"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "10:00",
+      "lugar": "tbb",
+      "sala": "5to piso",
+      "titulo": "“Cuando un cuerpo encuentra otro cuerpo”: Workshop de movimiento con André Braga y Panaibra Canda",
+      "detalle": "",
+      "tipo": "",
+      "precio": "",
+      "url": "https://teatrobiobio.cl/workshop-de-movimiento-con-andre-braga-y-panaibra-canda/"
     },
     {
       "fecha": "2026-11-09",
@@ -159,6 +192,16 @@
       "horario": "Martes a sábado, de 15:00 a 22:30",
       "precio": "Gratis",
       "url": "https://teatrobiobio.cl/instalacion-sonora-y-visual-lo-personal-es-politico/"
+    },
+    {
+      "lugar": "tbb",
+      "titulo": "Resistir · Crear · Cuidar · Sentir – Instalación gráfica retrospectiva FTB",
+      "detalle": "Hall TBB",
+      "desde": "2026-11-04",
+      "hasta": "2026-11-11",
+      "horario": "",
+      "precio": "Gratis",
+      "url": "https://teatrobiobio.cl/instalacion-grafica-retrospectiva-ftb/"
     },
     {
       "lugar": "pina",
@@ -247,9 +290,9 @@
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
     "Ticketmaster: D-Cámara: M8ZART": "https://www.ticketmaster.cl/event/concierto-d-camara-m8zart-teatro-universidad-de-concepcion: HTTP 403",
-    "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
-    "Teatro Biobío (sitio)": "ok: 0 funciones, 2 exposiciones",
-    "UCSC": "ok: 5 funciones, 0 exposiciones",
+    "Ticketplus/Corcudec": "ok: 4 funciones, 0 exposiciones",
+    "Teatro Biobío (sitio)": "ok: 3 funciones, 3 exposiciones",
+    "UCSC": "ok: 6 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
     "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-06&end_date=2026-11-12%2023:59&per_page=50: HTTP 404",
     "Alianza Francesa": "ok: 1 funciones, 0 exposiciones",
