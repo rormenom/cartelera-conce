@@ -197,7 +197,8 @@ async function corcudec() {
 function fechasTBB(linea) {
   // "del 8 de octubre al 10 de noviembre (martes a sábado, de 15:00 h a 22:30 h)"
   // "5 de noviembre, 19:00 h" | "5 y 6 de noviembre, 20:00 h" | "jueves 6 de noviembre, a las 19:00 h"
-  const l = linea.toLowerCase();
+  // "del miércoles 4 al miércoles 11 de noviembre": se quitan los días de la semana antes de leer el rango
+  const l = linea.toLowerCase().replace(new RegExp("\\b" + DIA_SEM + "\\b\\.?", "gi"), " ");
   const rango = l.match(new RegExp(`del?\\s+(\\d{1,2})(?:\\s+de\\s+${MES_RE})?\\s+al\\s+(\\d{1,2})\\s+de\\s+${MES_RE}`));
   const horario = (linea.match(/\(([^)]+)\)/) || [])[1] || "";
   if (rango) {
@@ -214,16 +215,30 @@ function fechasTBB(linea) {
   return { sesiones: ses, horario };
 }
 
+// Lee las líneas "Etiqueta: valor". Si la etiqueta viene sola (p. ej. "Fecha y hora:" seguida de una lista),
+// el valor son las líneas siguientes hasta la próxima etiqueta.
+const ETIQUETA = /^(Fechas? y horas?|Fechas? y horarios?(?: de la actividad)?|Fechas? de la actividad|Fechas?|Sala|Lugar|Tickets|Entradas|Precio|Público|Categoría|Por|Dirección|Compañía)\s*:\s*(.*)$/i;
+const claveEtiqueta = k => /^fechas?\s/i.test(k) ? "fecha y hora" : k.toLowerCase();
 function campos(t) {
   const c = {};
-  for (const l of t.split("\n")) {
-    const m = l.match(/^(Fecha y hora|Fecha|Sala|Lugar|Tickets|Entradas|Precio|Público|Categoría|Por|Dirección|Compañía)\s*:\s*(.+)$/i);
-    if (m && !c[m[1].toLowerCase()]) c[m[1].toLowerCase()] = m[2].trim();
+  const ls = t.split("\n");
+  for (let i = 0; i < ls.length; i++) {
+    const l = ls[i];
+    const m = l.match(ETIQUETA);
+    if (m) {
+      const k = claveEtiqueta(m[1]);
+      let v = m[2].trim();
+      if (!v) { const sig = []; for (let j = i + 1; j < ls.length && j <= i + 8 && !ETIQUETA.test(ls[j]); j++) if (ls[j].trim()) sig.push(ls[j].trim()); v = sig.join("\n"); }
+      if (v && !c[k]) c[k] = v;
+    }
     const p = l.match(/^Por\s+(.{3,80})$/);
     if (p && !c.por) c.por = p[1].trim();
   }
   return c;
 }
+
+// Fuera de Concepción (para actividades itinerantes como "TBB en tu barrio")
+const FUERA_CONCE = /los [aá]ngeles|chill[aá]n|ca[nñ]ete|arauco|curanilahue|lebu|coronel|lota|tom[eé]|penco|talcahuano|hualp[eé]n|chiguayante|san pedro de la paz|santa juana|nacimiento|mulch[eé]n|tir[uú]a|contulmo|los [aá]lamos/i;
 
 const precioTexto = s => /liberad|gratis|gratuit/i.test(s || "") ? "Gratis" :
   ((s || "").match(/\$\s?[\d.]+(?:\s*(?:\/|y|-)\s*\$\s?[\d.]+)?/) || [""])[0].replace(/\s+/g, " ");
@@ -238,10 +253,21 @@ async function postsTBB() {
     const fh = c["fecha y hora"] || c.fecha;
     if (!fh) continue;
     const titulo = decode(p.title.rendered).replace(/\s+/g, " ").trim();
-    if (/convocatoria|postulaci|taller|beneficio|escuela de p[uú]blicos|entrenamiento/i.test(titulo)) continue;
-    const f = fechasTBB(fh);
-    const sala = (c.sala || "").replace(/,\s*Teatro Biob[ií]o$/i, "");
+    if (/convocatoria|postulaci|beneficio|escuela de p[uú]blicos|entrenamiento/i.test(titulo)) continue;
+    const sala = (c.sala || c.lugar || "").replace(/,\s*Teatro Biob[ií]o$/i, "");
     const precio = precioTexto(c.tickets || c.entradas || c.precio);
+    // Varias fechas en lista, cada una con su lugar: "Sábado 7 de noviembre: 18:00 h en Aurora de Chile, Concepción."
+    const filas = fh.split("\n");
+    if (filas.length > 1) {
+      for (const fila of filas) {
+        const lugarFila = ((fila.match(/\sen\s+([^(]+?)\.?\s*(?:\(|$)/) || [])[1] || "").trim();
+        if (FUERA_CONCE.test(lugarFila)) continue;
+        for (const s of fechasTBB(fila).sesiones || []) if (enVentana(s.fecha))
+          eventos.push({ fecha: s.fecha, hora: s.hora, lugar: "tbb", sala: lugarFila || sala, titulo, detalle: c.por || "", tipo: tipoDe(titulo + " " + (c["categoría"] || "")), precio, url: p.link });
+      }
+      continue;
+    }
+    const f = fechasTBB(fh);
     const esExpo = (p.categories || []).includes(135) || /instalaci[oó]n|exposici[oó]n|muestra/i.test(titulo);
     if (f.rango) {
       if (f.rango.hasta < HOY || f.rango.desde > HASTA) continue;
@@ -259,7 +285,7 @@ async function postsTBB() {
 // ---------------------------------------------------------------- UCSC
 
 const UCSC_FUERA = /los [aá]ngeles|chill[aá]n|ca[nñ]ete|arauco|curanilahue|lebu/i;
-const UCSC_CULTURAL = /concierto|teatro|cine|pel[ií]cula|exposici[oó]n|muestra|danza|ballet|actriz|actor|recital|[oó]pera|coro|orquesta|m[uú]sica|poes[ií]a|literari|libro|acuarel|pintur|fotograf/i;
+const UCSC_CULTURAL = /concierto|teatro|cine|pel[ií]cula|exposici[oó]n|muestra|danza|ballet|actriz|actor|recital|[oó]pera|coro|orquesta|m[uú]sica|poes[ií]a|literari|libro|acuarel|pintur|fotograf|cultural|patrimoni|histori/i;
 
 function fechasUCSC(s) {
   // "5 noviembre" | "9 Nov - 9 Dic" | "5 - 7 noviembre"
