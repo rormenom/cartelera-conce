@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-07",
+  "actualizado": "2026-11-08",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -27,72 +27,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-07",
-      "hora": "15:00",
-      "lugar": "tbb",
-      "sala": "Café TBB",
-      "titulo": "Taller de Croquis: de la mirada al papel",
-      "detalle": "",
-      "tipo": "",
-      "precio": "",
-      "url": "https://teatrobiobio.cl/taller-de-croquis-de-la-mirada-al-papel/"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "16:00",
-      "lugar": "ucsc",
-      "sala": "Teatro UCSC",
-      "titulo": "Teatro Familiar: El patito feo. Compañía de Teatro El Rostro",
-      "detalle": "",
-      "tipo": "Teatro",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/teatro-familiar-el-patito-feo-compania-de-teatro-el-rostro-2/"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "17:00",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "El niño de los fósiles",
-      "detalle": "Festival Internacional de Teatro del Biobío",
-      "tipo": "Teatro",
-      "precio": "$4.428",
-      "url": "https://ticketplus.cl/events/el-nino-de-los-fosiles-festival-internacional-de-teatro-del-biobio"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "17:00",
-      "lugar": "ucsc",
-      "sala": "Parque Museo Pedro del Río Zañartu",
-      "titulo": "Concierto Orquestado “Rock de Concepción: música y territorio”",
-      "detalle": "",
-      "tipo": "Música",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/concierto-orquestado-rock-de-concepcion-musica-y-territorio/"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "18:00",
-      "lugar": "tbb",
-      "sala": "Aurora de Chile, Concepción",
-      "titulo": "TBB en tu barrio: Las voces de Víctor",
-      "detalle": "",
-      "tipo": "",
-      "precio": "Gratis",
-      "url": "https://teatrobiobio.cl/tbb-en-tu-barrio-las-voces-de-victor/"
-    },
-    {
-      "fecha": "2026-11-07",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Razones para no morir",
-      "detalle": "Festival Internacional de Teatro del Biobío",
-      "tipo": "Teatro",
-      "precio": "$4.428",
-      "url": "https://ticketplus.cl/events/razones-para-no-morir-festival-internacional-de-teatro-del-biobio"
-    },
     {
       "fecha": "2026-11-09",
       "hora": "10:00",
@@ -169,6 +103,50 @@
       "tipo": "",
       "precio": "Gratis",
       "url": "https://ticketplus.cl/events/naturaleza-sonora-experiencia-nonguen"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "12:00",
+      "lugar": "ucsc",
+      "sala": "Teatro UCSC",
+      "titulo": "Concierto de piano “Baladas de primavera” con el pianista Sebastián Arredondo",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/concierto-de-piano-baladas-de-primavera-con-el-pianista-sebastian-arredondo/"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "16:00",
+      "lugar": "ucsc",
+      "sala": "Teatro UCSC",
+      "titulo": "Teatro Familiar: El patito feo. Compañía de Teatro El Rostro",
+      "detalle": "",
+      "tipo": "Teatro",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/teatro-familiar-el-patito-feo-compania-de-teatro-el-rostro-3/"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Mister Shakespeare",
+      "detalle": "",
+      "tipo": "",
+      "precio": "$9.964 – $13.285",
+      "url": "https://ticketplus.cl/events/mister-shakespeare-2026-11-14-19-00-00-0300"
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Nektar Machine - Hecho en Biobío '26",
+      "detalle": "",
+      "tipo": "",
+      "precio": "$5.536 – $7.750",
+      "url": "https://ticketplus.cl/events/nektar-machine-hecho-en-biobio-26"
     }
   ],
   "exposiciones": [
@@ -280,10 +258,10 @@
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
     "Ticketmaster: D-Cámara: M8ZART": "https://www.ticketmaster.cl/event/concierto-d-camara-m8zart-teatro-universidad-de-concepcion: HTTP 403",
     "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
-    "Teatro Biobío (sitio)": "ok: 3 funciones, 3 exposiciones",
+    "Teatro Biobío (sitio)": "ok: 1 funciones, 3 exposiciones",
     "UCSC": "ok: 3 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-07&end_date=2026-11-13%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-08&end_date=2026-11-14%2023:59&per_page=50: HTTP 404",
     "Alianza Francesa": "ok: 2 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones"
   },
