@@ -24,6 +24,14 @@
     "gh": {
       "nombre": "Galería de la Historia",
       "color": "--gh"
+    },
+    "bib": {
+      "nombre": "Biblioteca Municipal",
+      "color": "--bib"
+    },
+    "otro": {
+      "nombre": "Otros espacios",
+      "color": "--otro"
     }
   },
   "eventos": [
@@ -40,6 +48,28 @@
     },
     {
       "fecha": "2026-11-09",
+      "hora": "19:00",
+      "lugar": "udec",
+      "sala": "Teatro UdeC",
+      "titulo": "Lunes Cinematográficos: Once",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "19:00",
+      "lugar": "otro",
+      "sala": "Centro de Extensión UBB",
+      "titulo": "Ecos, de Marta Colvin",
+      "detalle": "",
+      "tipo": "Exposición",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-09",
       "hora": "19:30",
       "lugar": "tbb",
       "sala": "Sala de Cámara",
@@ -48,6 +78,39 @@
       "tipo": "Teatro",
       "precio": "$4.428",
       "url": "https://ticketplus.cl/events/azul-festival-internacional-de-teatro-del-biobio"
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "20:00",
+      "lugar": "otro",
+      "sala": "Ice Bar",
+      "titulo": "La playa (2000)",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-09",
+      "hora": "20:00",
+      "lugar": "otro",
+      "sala": "Bar Galería Aura",
+      "titulo": "Japonight",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-10",
+      "hora": "18:00",
+      "lugar": "otro",
+      "sala": "Centro Cultural Teatro Dante",
+      "titulo": "Las cruces",
+      "detalle": "Cortometraje",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
     },
     {
       "fecha": "2026-11-10",
@@ -59,6 +122,72 @@
       "tipo": "Cine",
       "precio": "Gratis",
       "url": "https://www.afconcepcion.cl/eventos/"
+    },
+    {
+      "fecha": "2026-11-10",
+      "hora": "19:00",
+      "lugar": "otro",
+      "sala": "Ice Bar",
+      "titulo": "Ciclos Agudos Gritos",
+      "detalle": "",
+      "tipo": "",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-10",
+      "hora": "19:30",
+      "lugar": "otro",
+      "sala": "Bar y Cervecería Crápula",
+      "titulo": "Edder Lezzi",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-10",
+      "hora": "19:30",
+      "lugar": "otro",
+      "sala": "Bar El Averno",
+      "titulo": "Los Martes Chileneros: Ecos de Nuestra Tierra y El Lotijuai",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-10",
+      "hora": "20:00",
+      "lugar": "otro",
+      "sala": "Casa Teatro (Edmundo Larenas 36)",
+      "titulo": "La balada del marginado",
+      "detalle": "",
+      "tipo": "Teatro",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "18:00",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Salaam Cinema",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "19:00",
+      "lugar": "bib",
+      "sala": "Biblioteca Municipal de Concepción",
+      "titulo": "Libros Libres: Encuentro 82",
+      "detalle": "",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": ""
     },
     {
       "fecha": "2026-11-11",
@@ -83,6 +212,50 @@
       "url": "https://www.ticketmaster.cl/event/ignacio-socias-cerebro-de-bebe-teatro-universidad-de-concepcion"
     },
     {
+      "fecha": "2026-11-11",
+      "hora": "20:00",
+      "lugar": "otro",
+      "sala": "Casa Teatro (Edmundo Larenas 36)",
+      "titulo": "Soliloquio disfrazado",
+      "detalle": "",
+      "tipo": "Teatro",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "20:30",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Children of Heaven",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "23:00",
+      "lugar": "otro",
+      "sala": "Casa de Salud",
+      "titulo": "Javiera Electra",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "17:45",
+      "lugar": "otro",
+      "sala": "Librería Marta Brunet",
+      "titulo": "Conversatorio: Anatomía sci-fi, poder y deshumanización",
+      "detalle": "",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": ""
+    },
+    {
       "fecha": "2026-11-12",
       "hora": "18:00",
       "lugar": "ucsc",
@@ -94,6 +267,94 @@
       "url": "https://ucsc.cl/eventos/charla-practicas-sociales-y-configuracion-del-espacio-urbano-1910-1950/"
     },
     {
+      "fecha": "2026-11-12",
+      "hora": "18:00",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Persépolis",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "19:00",
+      "lugar": "otro",
+      "sala": "Vasco Bar",
+      "titulo": "Ciclos Agudos Gritos",
+      "detalle": "",
+      "tipo": "",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "19:00",
+      "lugar": "otro",
+      "sala": "Tucapel 482, Concepción",
+      "titulo": "Inauguración exposición: Desembocadura",
+      "detalle": "",
+      "tipo": "Exposición",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "19:00",
+      "lugar": "udec",
+      "sala": "Teatro UdeC",
+      "titulo": "M8ZART: entre la divinidad y lo cotidiano",
+      "detalle": "Ensamble de la Orquesta Sinfónica UdeC: Mozart y Haydn, dirige Ramiro Vera. Cierre de la temporada D-Cámara.",
+      "tipo": "Música",
+      "precio": "",
+      "url": "https://www.diarioconcepcion.cl/cultura/2026/11/08/m8zart-ensamble-sinfonica-udec-cierra-temporada-2026-d-camara.html"
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "19:30",
+      "lugar": "otro",
+      "sala": "Jarana Restobar",
+      "titulo": "Micrófono abierto: Perro Parlante",
+      "detalle": "",
+      "tipo": "Micrófono abierto",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "20:00",
+      "lugar": "otro",
+      "sala": "Café de la Historia",
+      "titulo": "Micheal Charango",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "21:00",
+      "lugar": "otro",
+      "sala": "Templo Crápula",
+      "titulo": "Rito Sonoro Vol. 6",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "15:00",
+      "lugar": "otro",
+      "sala": "Facultad de Ciencias Jurídicas y Sociales UdeC",
+      "titulo": "Historia del movimiento homosexual en Chile",
+      "detalle": "Conversatorio y documental",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": ""
+    },
+    {
       "fecha": "2026-11-13",
       "hora": "16:00",
       "lugar": "af",
@@ -103,6 +364,39 @@
       "tipo": "",
       "precio": "Gratis",
       "url": "https://www.afconcepcion.cl/eventos/"
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "16:00",
+      "lugar": "ucsc",
+      "sala": "Facultad de Comunicación, Historia y Ciencias Sociales",
+      "titulo": "Eternal Sunshine of the Spotless Mind",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "17:00",
+      "lugar": "otro",
+      "sala": "Auditorio UdeC",
+      "titulo": "I Encuentro Poético",
+      "detalle": "",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "18:00",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Salaam Cinema",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
     },
     {
       "fecha": "2026-11-13",
