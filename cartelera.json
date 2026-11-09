@@ -400,6 +400,50 @@
     },
     {
       "fecha": "2026-11-13",
+      "hora": "18:30",
+      "lugar": "otro",
+      "sala": "Auditorio BAJ Biobío",
+      "titulo": "La ciudad se parte en dos",
+      "detalle": "",
+      "tipo": "Teatro",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "19:00",
+      "lugar": "otro",
+      "sala": "Diagonal Pedro Aguirre Cerda",
+      "titulo": "Museo del Prado en la Diagonal: recorrido con monitores",
+      "detalle": "Reproducciones de obras del Museo del Prado al aire libre; muestra abierta hasta el 15 de noviembre.",
+      "tipo": "Exposición",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "19:00",
+      "lugar": "otro",
+      "sala": "La Esquina Rosada",
+      "titulo": "Ciclos Agudos Gritos",
+      "detalle": "",
+      "tipo": "",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "19:00",
+      "lugar": "otro",
+      "sala": "Patio Penquista (Colo Colo 366)",
+      "titulo": "Luis Astudillo",
+      "detalle": "Rock",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
       "hora": "19:30",
       "lugar": "tbb",
       "sala": "Sala de Cámara",
@@ -408,6 +452,39 @@
       "tipo": "",
       "precio": "Gratis",
       "url": "https://ticketplus.cl/events/naturaleza-sonora-experiencia-nonguen"
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "19:30",
+      "lugar": "gh",
+      "sala": "Galería de la Historia",
+      "titulo": "Bandada nocturna en vuelo",
+      "detalle": "Recorrido familiar y musical",
+      "tipo": "Recorrido",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "20:00",
+      "lugar": "otro",
+      "sala": "Bandera 1001",
+      "titulo": "All Jazzera: Gira 2049",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "20:30",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Children of Heaven",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
     },
     {
       "fecha": "2026-11-14",
@@ -433,6 +510,17 @@
     },
     {
       "fecha": "2026-11-14",
+      "hora": "18:00",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Salaam Cinema",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-14",
       "hora": "19:00",
       "lugar": "tbb",
       "sala": "Sala Principal",
@@ -454,6 +542,39 @@
       "url": "https://ticketplus.cl/events/nektar-machine-hecho-en-biobio-26"
     },
     {
+      "fecha": "2026-11-14",
+      "hora": "20:30",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Children of Heaven",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "21:00",
+      "lugar": "otro",
+      "sala": "Juan Cantina",
+      "titulo": "Demociones íntimo",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "lugar": "otro",
+      "sala": "Club de Chicas CCP (ver @clubdechicasccp)",
+      "titulo": "Club de lectura: Pura pasión, de Annie Ernaux",
+      "detalle": "",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": ""
+    },
+    {
       "fecha": "2026-11-15",
       "hora": "15:00",
       "lugar": "tbb",
@@ -466,6 +587,17 @@
     },
     {
       "fecha": "2026-11-15",
+      "hora": "18:00",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Salaam Cinema",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
+    },
+    {
+      "fecha": "2026-11-15",
       "hora": "20:00",
       "lugar": "udec",
       "sala": "Teatro UdeC",
@@ -474,6 +606,17 @@
       "tipo": "Música",
       "precio": "",
       "url": "https://www.ticketmaster.cl/event/leon-gieco-teatro-universidad-de-concepcion"
+    },
+    {
+      "fecha": "2026-11-15",
+      "hora": "20:30",
+      "lugar": "otro",
+      "sala": "Microcine Molina",
+      "titulo": "Children of Heaven",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": ""
     }
   ],
   "exposiciones": [
