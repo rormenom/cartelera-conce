@@ -24,15 +24,48 @@
       "url": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once"
     },
     {
+      "fecha": "2026-11-10",
+      "hora": "10:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Sesión de escritura y lectura",
+      "detalle": "Grupo Literario Azul",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "17:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Conversemos libremente",
+      "detalle": "Con Mario Godoy, de 17 a 19 horas",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
       "fecha": "2026-11-11",
       "hora": "19:00",
       "lugar": "bib",
-      "sala": "Biblioteca Municipal de Concepción",
-      "titulo": "Libros Libres: Encuentro 82",
-      "detalle": "",
+      "sala": "Primer piso",
+      "titulo": "Transferencia de libros: Libros Libres",
+      "detalle": "ONG Libros Libres (encuentro 82)",
       "tipo": "Literatura",
       "precio": "",
-      "url": ""
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Club de lectura histórica",
+      "detalle": "Archivo Histórico de Concepción, con Melissa Coronado",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
     },
     {
       "fecha": "2026-11-12",
@@ -66,6 +99,226 @@
       "tipo": "Recorrido",
       "precio": "",
       "url": ""
+    },
+    {
+      "fecha": "2026-11-14",
+      "hora": "11:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Cuentacuentos Cultivadores de Futuro",
+      "detalle": "Programa Hippy, Fundación CMPC",
+      "tipo": "Infantil",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Órnie Gabriela",
+      "detalle": "Compañía Teatro la Obra",
+      "tipo": "Teatro",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Salón Concepción",
+      "titulo": "Club de lectura Dostoievski",
+      "detalle": "Sociedad Brönte",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-16",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Presentación del libro «Piedras en el tiempo»",
+      "detalle": "Editorial Anokanay",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "10:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Sesión de escritura y lectura",
+      "detalle": "Grupo Literario Azul",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "17:30",
+      "lugar": "bib",
+      "sala": "Salón Concepción",
+      "titulo": "Sesión de lectura",
+      "detalle": "Club de Lectoras El Segundo Texto",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-18",
+      "hora": "17:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Conversemos libremente",
+      "detalle": "Con Mario Godoy, de 17 a 19 horas",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-18",
+      "hora": "17:30",
+      "lugar": "bib",
+      "sala": "Salón Concepción",
+      "titulo": "Sesión de lectura",
+      "detalle": "Club de Lectoras El Segundo Texto",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "16:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Presentación del fotolibro «La Conexión»",
+      "detalle": "Coordinación Regional de Bibliotecas Públicas",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Sala Teresa Águila",
+      "titulo": "Charla: La ilustración como herramienta de transformación social",
+      "detalle": "Casos prácticos y potencial creativo, con María Luisa Parés",
+      "tipo": "Charla",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "10:00",
+      "lugar": "bib",
+      "sala": "Primer y segundo piso",
+      "titulo": "Fiesta del Libro y la Lectura",
+      "detalle": "Ministerio de las Culturas, las Artes y el Patrimonio; de 10 a 18 horas",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-21",
+      "hora": "11:30",
+      "lugar": "bib",
+      "sala": "Sala Teresa Águila",
+      "titulo": "Charla: Día Mundial de la Filosofía",
+      "detalle": "Nueva Acrópolis",
+      "tipo": "Charla",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "14:30",
+      "lugar": "bib",
+      "sala": "Sala Teresa Águila",
+      "titulo": "Sesión literaria",
+      "detalle": "Grupo Tinta Negra",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-24",
+      "hora": "10:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Sesión de escritura y lectura",
+      "detalle": "Grupo Literario Azul",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "17:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Conversemos libremente",
+      "detalle": "Con Mario Godoy, de 17 a 19 horas",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "17:30",
+      "lugar": "bib",
+      "sala": "Salón Concepción",
+      "titulo": "Sesión de lectura",
+      "detalle": "Club de Lectoras El Segundo Texto",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "18:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Café científico",
+      "detalle": "Centro de Biotecnología UdeC",
+      "tipo": "Charla",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Club de lectura histórica",
+      "detalle": "Archivo Histórico de Concepción, con Melissa Coronado",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "12:00",
+      "lugar": "bib",
+      "sala": "Segundo piso",
+      "titulo": "Tarde lúdica de aniversario",
+      "detalle": "Planeta LoZ",
+      "tipo": "Juegos",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-29",
+      "hora": "11:00",
+      "lugar": "bib",
+      "sala": "Sala Teresa Águila",
+      "titulo": "Charla Metis",
+      "detalle": "Rosacruz Áurea",
+      "tipo": "Charla",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
     }
   ],
   "exposiciones": [
