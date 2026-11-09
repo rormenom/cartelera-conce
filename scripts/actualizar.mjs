@@ -637,7 +637,6 @@ async function main() {
       af: { nombre: "Alianza Francesa", color: "--af" },
       gh: { nombre: "Galería de la Historia", color: "--gh" },
       bib: { nombre: "Biblioteca Municipal", color: "--bib" },
-      otro: { nombre: "Otros espacios", color: "--otro" },   // desde manual.json; el nombre del lugar va en "sala"
     },
     eventos: eventos.map(({ fecha, hora, lugar, sala, titulo, detalle, tipo, precio, url }) => ({ fecha, hora: hora || "", lugar, sala: sala || "", titulo, detalle: detalle || "", tipo: tipo || "", precio: precio || "", url: url || "" })),
     exposiciones: expos.map(({ lugar, titulo, detalle, desde, hasta, horario, precio, url }) => ({ lugar, titulo, detalle: detalle || "", desde: desde || null, hasta: hasta || null, horario: horario || "", precio: precio || "", url: url || "" })),
