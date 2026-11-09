@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08",
+  "actualizado": "2026-11-09",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -70,6 +70,17 @@
       "tipo": "Teatro",
       "precio": "$4.428",
       "url": "https://ticketplus.cl/events/ou-festival-internacional-de-teatro-del-biobio"
+    },
+    {
+      "fecha": "2026-11-11",
+      "hora": "19:30",
+      "lugar": "udec",
+      "sala": "Teatro UdeC",
+      "titulo": "Ignacio Socías – Cerebro de Bebé",
+      "detalle": "",
+      "tipo": "Comedia",
+      "precio": "",
+      "url": "https://www.ticketmaster.cl/event/ignacio-socias-cerebro-de-bebe-teatro-universidad-de-concepcion"
     },
     {
       "fecha": "2026-11-12",
@@ -147,6 +158,28 @@
       "tipo": "",
       "precio": "$5.536 – $7.750",
       "url": "https://ticketplus.cl/events/nektar-machine-hecho-en-biobio-26"
+    },
+    {
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Concierto de música clásica para Bebés",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "$7.750 – $13.285",
+      "url": "https://ticketplus.cl/events/concierto-de-musica-clasica-para-bebes"
+    },
+    {
+      "fecha": "2026-11-15",
+      "hora": "20:00",
+      "lugar": "udec",
+      "sala": "Teatro UdeC",
+      "titulo": "Leon Gieco",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": "https://www.ticketmaster.cl/event/leon-gieco-teatro-universidad-de-concepcion"
     }
   ],
   "exposiciones": [
@@ -257,13 +290,14 @@
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
     "Ticketmaster: D-Cámara: M8ZART": "https://www.ticketmaster.cl/event/concierto-d-camara-m8zart-teatro-universidad-de-concepcion: HTTP 403",
-    "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
+    "Ticketplus/Corcudec": "ok: 6 funciones, 0 exposiciones",
     "Teatro Biobío (sitio)": "ok: 1 funciones, 3 exposiciones",
     "UCSC": "ok: 3 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-08&end_date=2026-11-14%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-09&end_date=2026-11-15%2023:59&per_page=50: HTTP 404",
     "Alianza Francesa": "ok: 2 funciones, 0 exposiciones",
-    "Galería de la Historia": "ok: 0 funciones, 2 exposiciones"
+    "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
+    "Agenda concepcioncultural.cl": "ok: 2 funciones en el Teatro UdeC, 2 nuevas"
   },
   "fuentes": [
     {
@@ -277,6 +311,10 @@
     {
       "nombre": "Corcudec",
       "url": "https://www.corcudec.cl/"
+    },
+    {
+      "nombre": "Agenda Concepción Cultural",
+      "url": "https://www.concepcioncultural.cl/agenda/"
     },
     {
       "nombre": "UCSC",
