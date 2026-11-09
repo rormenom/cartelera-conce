@@ -66,6 +66,17 @@
     },
     {
       "fecha": "2026-11-10",
+      "hora": "10:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Sesión de escritura y lectura",
+      "detalle": "Grupo Literario Azul",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-10",
       "hora": "19:00",
       "lugar": "af",
       "sala": "Sala de teatro",
@@ -77,14 +88,25 @@
     },
     {
       "fecha": "2026-11-11",
+      "hora": "17:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Conversemos libremente",
+      "detalle": "Con Mario Godoy, de 17 a 19 horas",
+      "tipo": "Conversatorio",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-11",
       "hora": "19:00",
       "lugar": "bib",
-      "sala": "Biblioteca Municipal de Concepción",
-      "titulo": "Libros Libres: Encuentro 82",
-      "detalle": "",
+      "sala": "Primer piso",
+      "titulo": "Transferencia de libros: Libros Libres",
+      "detalle": "ONG Libros Libres (encuentro 82)",
       "tipo": "Literatura",
       "precio": "",
-      "url": ""
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
     },
     {
       "fecha": "2026-11-11",
@@ -107,6 +129,17 @@
       "tipo": "Comedia",
       "precio": "",
       "url": "https://www.ticketmaster.cl/event/ignacio-socias-cerebro-de-bebe-teatro-universidad-de-concepcion"
+    },
+    {
+      "fecha": "2026-11-12",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Club de lectura histórica",
+      "detalle": "Archivo Histórico de Concepción, con Melissa Coronado",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
     },
     {
       "fecha": "2026-11-12",
@@ -176,6 +209,17 @@
     },
     {
       "fecha": "2026-11-14",
+      "hora": "11:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Cuentacuentos Cultivadores de Futuro",
+      "detalle": "Programa Hippy, Fundación CMPC",
+      "tipo": "Infantil",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-14",
       "hora": "12:00",
       "lugar": "ucsc",
       "sala": "Teatro UCSC",
@@ -220,6 +264,17 @@
     },
     {
       "fecha": "2026-11-15",
+      "hora": "12:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Órnie Gabriela",
+      "detalle": "Compañía Teatro la Obra",
+      "tipo": "Teatro",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-15",
       "hora": "15:00",
       "lugar": "tbb",
       "sala": "Sala de Cámara",
@@ -228,6 +283,17 @@
       "tipo": "Música",
       "precio": "$7.750 – $13.285",
       "url": "https://ticketplus.cl/events/concierto-de-musica-clasica-para-bebes"
+    },
+    {
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Salón Concepción",
+      "titulo": "Club de lectura Dostoievski",
+      "detalle": "Sociedad Brönte",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
     },
     {
       "fecha": "2026-11-15",
