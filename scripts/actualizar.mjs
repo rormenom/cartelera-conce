@@ -5,6 +5,7 @@
 // Fuentes:
 //   Teatro Biobío ........ Ticketplus (funciones) + teatrobiobio.cl (exposiciones y actividades gratis)
 //   Corcudec / Teatro UdeC  Ticketplus + programación de corcudec.cl (fechas y horas de cada concierto)
+//                           + agenda de concepcioncultural.cl (espectáculos externos en el Teatro UdeC)
 //   UCSC ................. ucsc.cl/eventos (solo cultura y extensión)
 //   Casa del Arte UdeC ... pinacoteca.udec.cl (exposiciones actuales y próximas)
 //   Alianza Francesa ..... afconcepcion.cl (si responde; si no, se conserva lo anterior)
@@ -456,6 +457,59 @@ function eventosAF(html) {
   return out;
 }
 
+// ---------------------------------------------------------------- Agenda municipal (concepcioncultural.cl)
+// El Teatro UdeC recibe muchos espectáculos de productoras externas (conciertos, stand-up, teatro comercial)
+// que Corcudec no publica. La agenda municipal sí los trae, con fecha, hora y enlace de entradas en campos ACF.
+
+const CC_CATEGORIAS = { 3: "Música", 7: "Artes visuales", 8: "Teatro", 9: "Danza", 10: "Cine", 11: "Literatura",
+  13: "Infantil", 17: "Circo", 20: "Comedia", 21: "Conversatorio", 22: "Cine", 24: "Magia" };
+const CC_LUGARES = [
+  { re: /teatro (de la )?(universidad de concepcion|udec)/, lugar: "udec", sala: "Teatro UdeC" },
+];
+
+function tituloLegible(t) {
+  // "IGNACIO SOCÍAS – CEREBRO DE BEBÉ" -> "Ignacio Socías – Cerebro de Bebé"
+  if (t !== t.toUpperCase()) return t;
+  const menores = new Set(["de", "del", "la", "las", "el", "los", "y", "e", "en", "a", "al", "con", "por", "para", "o", "u"]);
+  return t.toLowerCase().replace(/\p{L}[\p{L}'’]*/gu, (w, i) => (i > 0 && menores.has(w)) ? w : w[0].toUpperCase() + w.slice(1));
+}
+
+async function concepcionCultural() {
+  const eventos = [];
+  for (let page = 1; page <= 5; page++) {
+    const url = `https://www.concepcioncultural.cl/wp-json/wp/v2/evento?estado-evento=19&per_page=100&page=${page}&_fields=id,title,link,acf,categoria-evento`;
+    let lote;
+    try { lote = await traer(url, { json: true }); }
+    catch (e) { if (page > 1 && /HTTP 400/.test(e.message)) break; throw e; }
+    if (!Array.isArray(lote) || !lote.length) break;
+    for (const p of lote) {
+      const a = p.acf || {};
+      const m = String(a.fecha || "").match(/^(\d{4})(\d{2})(\d{2})$/);
+      if (!m) continue;
+      const fecha = `${m[1]}-${m[2]}-${m[3]}`;
+      if (!enVentana(fecha)) continue;
+      const lug = CC_LUGARES.find(l => l.re.test(normal(a.lugar || "")));
+      if (!lug) continue;
+      const h = String(a.hora || "").match(/(\d{1,2})[:.](\d{2})/);
+      const titulo = tituloLegible(decode(p.title?.rendered || "").trim());
+      const cat = (p["categoria-evento"] || []).map(id => CC_CATEGORIAS[id]).find(Boolean);
+      eventos.push({ fecha, hora: h ? `${pad(h[1])}:${h[2]}` : "", lugar: lug.lugar, sala: lug.sala, titulo,
+        detalle: "", tipo: cat || tipoDe(titulo), precio: "", url: (a.link || "").trim() || p.link });
+    }
+    if (lote.length < 100) break;
+  }
+  return { eventos, expos: [] };
+}
+
+// ¿Es el mismo espectáculo? (misma fecha y lugar, y títulos que se contienen o comparten 2+ palabras largas)
+function mismoEvento(a, b) {
+  if (a.fecha !== b.fecha || a.lugar !== b.lugar) return false;
+  const na = normal(a.titulo), nb = normal(b.titulo);
+  if (na.includes(nb) || nb.includes(na)) return true;
+  const pa = new Set(na.split(" ").filter(w => w.length >= 5));
+  return nb.split(" ").filter(w => w.length >= 5 && pa.has(w)).length >= 2;
+}
+
 // ---------------------------------------------------------------- armado
 
 async function ticketplusYCorcudec() {
@@ -540,6 +594,15 @@ async function main() {
   let eventos = partes.flatMap(p => p.eventos);
   let expos = partes.flatMap(p => p.expos);
 
+  // Agenda municipal: solo agrega lo que no vino ya por Ticketplus/Corcudec. Si falla, no se pierde nada.
+  try {
+    const cc = await concepcionCultural();
+    const nuevos = cc.eventos.filter(e => !eventos.some(x => mismoEvento(x, e)));
+    eventos.push(...nuevos);
+    diagnostico["Agenda concepcioncultural.cl"] = `ok: ${cc.eventos.length} funciones en el Teatro UdeC, ${nuevos.length} nuevas`;
+  } catch (e) { diagnostico["Agenda concepcioncultural.cl"] = `error: ${e.message}`; }
+  log("Agenda concepcioncultural.cl", diagnostico["Agenda concepcioncultural.cl"]);
+
   // Si un sitio no respondió, conservar lo que ya teníamos de ese lugar (solo lo que sigue vigente)
   const nombres = { tbb: "Teatro Biobío", udec: "Corcudec", ucsc: "UCSC", pina: "Casa del Arte UdeC", af: "Alianza Francesa", gh: "Galería de la Historia" };
   for (const k of fallaron) {
@@ -582,6 +645,7 @@ async function main() {
       { nombre: "Ticketplus Teatro Biobío", url: "https://ticketplus.cl/companies/teatro-biobio" },
       { nombre: "Teatro Biobío", url: "https://teatrobiobio.cl/" },
       { nombre: "Corcudec", url: "https://www.corcudec.cl/" },
+      { nombre: "Agenda Concepción Cultural", url: "https://www.concepcioncultural.cl/agenda/" },
       { nombre: "UCSC", url: "https://ucsc.cl/eventos/" },
       { nombre: "Casa del Arte UdeC", url: "https://pinacoteca.udec.cl/exposiciones/" },
       { nombre: "Alianza Francesa", url: "https://www.afconcepcion.cl/eventos/" },

@@ -9,7 +9,7 @@ GitHub Actions corre `scripts/actualizar.mjs` todos los días a las 06:17 (hora 
 | Lugar | De dónde saca los datos |
 |---|---|
 | Teatro Biobío | Ticketplus (funciones, horas y precios) y teatrobiobio.cl (exposiciones y actividades gratis) |
-| Corcudec · Teatro UdeC | Programación de corcudec.cl (fechas y horas) + Ticketplus |
+| Corcudec · Teatro UdeC | Programación de corcudec.cl (fechas y horas) + Ticketplus + agenda de concepcioncultural.cl (espectáculos externos) |
 | UCSC | ucsc.cl/eventos, solo cultura y extensión en Concepción |
 | Casa del Arte UdeC | pinacoteca.udec.cl, exposiciones actuales y próximas |
 | Alianza Francesa | afconcepcion.cl (hoy no responde a lectores fuera de Chile; ver abajo) |
