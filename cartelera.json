@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-09",
+  "actualizado": "2026-11-10",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -31,39 +31,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-09",
-      "hora": "10:00",
-      "lugar": "tbb",
-      "sala": "5to piso",
-      "titulo": "“Cuando un cuerpo encuentra otro cuerpo”: Workshop de movimiento con André Braga y Panaibra Canda",
-      "detalle": "",
-      "tipo": "",
-      "precio": "",
-      "url": "https://teatrobiobio.cl/workshop-de-movimiento-con-andre-braga-y-panaibra-canda/"
-    },
-    {
-      "fecha": "2026-11-09",
-      "hora": "19:00",
-      "lugar": "udec",
-      "sala": "Teatro UdeC",
-      "titulo": "Lunes Cinematográficos: Once",
-      "detalle": "",
-      "tipo": "Cine",
-      "precio": "",
-      "url": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once"
-    },
-    {
-      "fecha": "2026-11-09",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Azul",
-      "detalle": "Festival Internacional de Teatro del Biobío",
-      "tipo": "Teatro",
-      "precio": "$4.428",
-      "url": "https://ticketplus.cl/events/azul-festival-internacional-de-teatro-del-biobio"
-    },
     {
       "fecha": "2026-11-10",
       "hora": "10:00",
@@ -305,6 +272,28 @@
       "tipo": "Música",
       "precio": "",
       "url": "https://www.ticketmaster.cl/event/leon-gieco-teatro-universidad-de-concepcion"
+    },
+    {
+      "fecha": "2026-11-16",
+      "hora": "10:00",
+      "lugar": "tbb",
+      "sala": "5to piso",
+      "titulo": "Escuela Laburtorio FAEEP: Formación para las artes escénicas en el espacio público",
+      "detalle": "",
+      "tipo": "",
+      "precio": "",
+      "url": "https://teatrobiobio.cl/formacion-para-las-artes-escenicas-en-el-espacio-publico/"
+    },
+    {
+      "fecha": "2026-11-16",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Presentación del libro «Piedras en el tiempo»",
+      "detalle": "Editorial Anokanay",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
     }
   ],
   "exposiciones": [
@@ -409,17 +398,19 @@
       "url": "https://www.ghconcepcion.cl/index.php/2026/10/07/galeria-de-la-historia-de-concepcion-inaugura-un-nuevo-espacio-la-sala-regional/"
     }
   ],
-  "notas": [],
+  "notas": [
+    "UCSC: su sitio no respondió hoy; se muestra la última información disponible."
+  ],
   "_diagnostico": {
     "Ticketmaster: Once": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once: HTTP 403",
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
     "Ticketmaster: D-Cámara: M8ZART": "https://www.ticketmaster.cl/event/concierto-d-camara-m8zart-teatro-universidad-de-concepcion: HTTP 403",
-    "Ticketplus/Corcudec": "ok: 6 funciones, 0 exposiciones",
+    "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
     "Teatro Biobío (sitio)": "ok: 1 funciones, 3 exposiciones",
-    "UCSC": "ok: 3 funciones, 0 exposiciones",
+    "UCSC": "error: https://ucsc.cl/eventos/: fetch failed",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-09&end_date=2026-11-15%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-10&end_date=2026-11-16%2023:59&per_page=50: HTTP 404",
     "Alianza Francesa": "ok: 2 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
     "Agenda concepcioncultural.cl": "ok: 2 funciones en el Teatro UdeC, 2 nuevas"
