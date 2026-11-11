@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-10",
+  "actualizado": "2026-11-11",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -31,28 +31,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-10",
-      "hora": "10:00",
-      "lugar": "bib",
-      "sala": "Sala Investigadores",
-      "titulo": "Sesión de escritura y lectura",
-      "detalle": "Grupo Literario Azul",
-      "tipo": "Literatura",
-      "precio": "",
-      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
-    },
-    {
-      "fecha": "2026-11-10",
-      "hora": "19:00",
-      "lugar": "af",
-      "sala": "Sala de teatro",
-      "titulo": "Ciclo de cine Pensar Sentir Mostrar",
-      "detalle": "Le garçon",
-      "tipo": "Cine",
-      "precio": "Gratis",
-      "url": "https://www.afconcepcion.cl/eventos/"
-    },
     {
       "fecha": "2026-11-11",
       "hora": "17:00",
@@ -129,6 +107,17 @@
       "tipo": "Música",
       "precio": "",
       "url": "https://www.diarioconcepcion.cl/cultura/2026/11/08/m8zart-ensamble-sinfonica-udec-cierra-temporada-2026-d-camara.html"
+    },
+    {
+      "fecha": "2026-11-13",
+      "hora": "15:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Cortos Interescuelas",
+      "detalle": "",
+      "tipo": "",
+      "precio": "Gratis",
+      "url": "https://ticketplus.cl/events/cortos-interescuelas"
     },
     {
       "fecha": "2026-11-13",
@@ -287,6 +276,17 @@
     {
       "fecha": "2026-11-16",
       "hora": "15:00",
+      "lugar": "ucsc",
+      "sala": "Sala de Exposiciones, Centro de Extensión UCSC",
+      "titulo": "Dialogando Chile “La Música: muchas voces, un mismo territorio”",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/dialogando-chile-la-musica-muchas-voces-un-mismo-territorio/"
+    },
+    {
+      "fecha": "2026-11-16",
+      "hora": "15:00",
       "lugar": "bib",
       "sala": "Primer piso",
       "titulo": "Presentación del libro «Piedras en el tiempo»",
@@ -294,19 +294,53 @@
       "tipo": "Literatura",
       "precio": "",
       "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "10:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Sesión de escritura y lectura",
+      "detalle": "Grupo Literario Azul",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "17:30",
+      "lugar": "bib",
+      "sala": "Salón Concepción",
+      "titulo": "Sesión de lectura",
+      "detalle": "Club de Lectoras El Segundo Texto",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Festival Nacional de Big Band Juveniles",
+      "detalle": "",
+      "tipo": "Música",
+      "precio": "Gratis",
+      "url": "https://ticketplus.cl/events/festival-nacional-de-big-band-juveniles"
+    },
+    {
+      "fecha": "2026-11-17",
+      "hora": "19:00",
+      "lugar": "af",
+      "sala": "Sala de teatro",
+      "titulo": "Ciclo de cine Pensar Sentir Mostrar",
+      "detalle": "Marcello mio",
+      "tipo": "Cine",
+      "precio": "Gratis",
+      "url": "https://www.afconcepcion.cl/eventos/"
     }
   ],
   "exposiciones": [
-    {
-      "lugar": "tbb",
-      "titulo": "Lo personal es político",
-      "detalle": "Hall Principal",
-      "desde": "2026-10-08",
-      "hasta": "2026-11-10",
-      "horario": "Martes a sábado, de 15:00 a 22:30",
-      "precio": "Gratis",
-      "url": "https://teatrobiobio.cl/instalacion-sonora-y-visual-lo-personal-es-politico/"
-    },
     {
       "lugar": "tbb",
       "titulo": "Resistir · Crear · Cuidar · Sentir – Instalación gráfica retrospectiva FTB",
@@ -398,19 +432,17 @@
       "url": "https://www.ghconcepcion.cl/index.php/2026/10/07/galeria-de-la-historia-de-concepcion-inaugura-un-nuevo-espacio-la-sala-regional/"
     }
   ],
-  "notas": [
-    "UCSC: su sitio no respondió hoy; se muestra la última información disponible."
-  ],
+  "notas": [],
   "_diagnostico": {
     "Ticketmaster: Once": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once: HTTP 403",
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
     "Ticketmaster: D-Cámara: M8ZART": "https://www.ticketmaster.cl/event/concierto-d-camara-m8zart-teatro-universidad-de-concepcion: HTTP 403",
-    "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
-    "Teatro Biobío (sitio)": "ok: 1 funciones, 3 exposiciones",
-    "UCSC": "error: https://ucsc.cl/eventos/: fetch failed",
+    "Ticketplus/Corcudec": "ok: 7 funciones, 0 exposiciones",
+    "Teatro Biobío (sitio)": "ok: 2 funciones, 2 exposiciones",
+    "UCSC": "ok: 4 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-10&end_date=2026-11-16%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-11&end_date=2026-11-17%2023:59&per_page=50: HTTP 404",
     "Alianza Francesa": "ok: 2 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
     "Agenda concepcioncultural.cl": "ok: 2 funciones en el Teatro UdeC, 2 nuevas"
