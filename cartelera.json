@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12",
+  "actualizado": "2026-11-13",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -31,39 +31,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-12",
-      "hora": "15:00",
-      "lugar": "bib",
-      "sala": "Sala Investigadores",
-      "titulo": "Club de lectura histórica",
-      "detalle": "Archivo Histórico de Concepción, con Melissa Coronado",
-      "tipo": "Literatura",
-      "precio": "",
-      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
-    },
-    {
-      "fecha": "2026-11-12",
-      "hora": "18:00",
-      "lugar": "ucsc",
-      "sala": "",
-      "titulo": "Charla “Prácticas sociales y configuración del espacio Urbano 1910-1950”",
-      "detalle": "Galería de la Historia Concepción",
-      "tipo": "Conversatorio",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/charla-practicas-sociales-y-configuracion-del-espacio-urbano-1910-1950/"
-    },
-    {
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "lugar": "udec",
-      "sala": "Teatro UdeC",
-      "titulo": "M8ZART: entre la divinidad y lo cotidiano",
-      "detalle": "Ensamble de la Orquesta Sinfónica UdeC: Mozart y Haydn, dirige Ramiro Vera. Cierre de la temporada D-Cámara.",
-      "tipo": "Música",
-      "precio": "",
-      "url": "https://www.diarioconcepcion.cl/cultura/2026/11/08/m8zart-ensamble-sinfonica-udec-cierra-temporada-2026-d-camara.html"
-    },
     {
       "fecha": "2026-11-13",
       "hora": "15:00",
@@ -349,6 +316,39 @@
       "tipo": "Literatura",
       "precio": "",
       "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "16:00",
+      "lugar": "bib",
+      "sala": "Primer piso",
+      "titulo": "Presentación del fotolibro «La Conexión»",
+      "detalle": "Coordinación Regional de Bibliotecas Públicas",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "17:00",
+      "lugar": "ucsc",
+      "sala": "Sala de Exposiciones, Centro de Extensión UCSC",
+      "titulo": "Conversatorio “El club de la película: Vida, cultura y cine”",
+      "detalle": "",
+      "tipo": "Cine",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/conversatorio-el-club-de-la-pelicula-vida-cultura-y-cine/"
+    },
+    {
+      "fecha": "2026-11-19",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Cambio de turno",
+      "detalle": "",
+      "tipo": "",
+      "precio": "$5.536 – $7.750",
+      "url": "https://ticketplus.cl/events/cambio-de-turno-2026-11-19-19-30-00-0300"
     }
   ],
   "exposiciones": [
@@ -439,11 +439,11 @@
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
     "Ticketmaster: D-Cámara: M8ZART": "https://www.ticketmaster.cl/event/concierto-d-camara-m8zart-teatro-universidad-de-concepcion: HTTP 403",
-    "Ticketplus/Corcudec": "ok: 6 funciones, 0 exposiciones",
+    "Ticketplus/Corcudec": "ok: 7 funciones, 0 exposiciones",
     "Teatro Biobío (sitio)": "ok: 3 funciones, 1 exposiciones",
     "UCSC": "ok: 6 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-12&end_date=2026-11-18%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-13&end_date=2026-11-19%2023:59&per_page=50: HTTP 404",
     "Alianza Francesa": "ok: 2 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
     "Agenda concepcioncultural.cl": "ok: 1 funciones en el Teatro UdeC, 1 nuevas"
