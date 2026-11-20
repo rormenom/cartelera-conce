@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-19",
+  "actualizado": "2026-11-20",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -31,39 +31,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-19",
-      "hora": "16:00",
-      "lugar": "bib",
-      "sala": "Primer piso",
-      "titulo": "Presentación del fotolibro «La Conexión»",
-      "detalle": "Coordinación Regional de Bibliotecas Públicas",
-      "tipo": "Literatura",
-      "precio": "",
-      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
-    },
-    {
-      "fecha": "2026-11-19",
-      "hora": "17:00",
-      "lugar": "ucsc",
-      "sala": "Sala de Exposiciones, Centro de Extensión UCSC",
-      "titulo": "Conversatorio “El club de la película: Vida, cultura y cine”",
-      "detalle": "",
-      "tipo": "Cine",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/conversatorio-el-club-de-la-pelicula-vida-cultura-y-cine/"
-    },
-    {
-      "fecha": "2026-11-19",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Cambio de turno",
-      "detalle": "",
-      "tipo": "",
-      "precio": "$5.536 – $7.750",
-      "url": "https://ticketplus.cl/events/cambio-de-turno-2026-11-19-19-30-00-0300"
-    },
     {
       "fecha": "2026-11-20",
       "hora": "15:00",
@@ -182,7 +149,7 @@
       "titulo": "Catalina y Las Bordonas de Oro: La alegría de los que lloran",
       "detalle": "",
       "tipo": "",
-      "precio": "$15.499 – $22.142",
+      "precio": "$14.392 – $22.142",
       "url": "https://ticketplus.cl/events/catalina-y-las-bordonas-de-oro"
     },
     {
@@ -327,6 +294,50 @@
       "tipo": "Música",
       "precio": "",
       "url": "https://ucsc.cl/eventos/concierto-de-la-orquesta-clasica-ucsc-la-alegria-de-sonar-schubert-y-la-celebracion-de-la-musica/"
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "15:00",
+      "lugar": "bib",
+      "sala": "Sala Investigadores",
+      "titulo": "Club de lectura histórica",
+      "detalle": "Archivo Histórico de Concepción, con Melissa Coronado",
+      "tipo": "Literatura",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "18:30",
+      "lugar": "ucsc",
+      "sala": "Teatro UCSC",
+      "titulo": "6° versión de “Arte, vida y danza 2026”",
+      "detalle": "Vicerrectoría Académica UCSC",
+      "tipo": "Danza",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/6-version-de-arte-vida-y-danza-2026/"
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "19:00",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Gloria de Sebatián Lelio",
+      "detalle": "",
+      "tipo": "",
+      "precio": "Gratis",
+      "url": "https://ticketplus.cl/events/gloria-de-sebatian-lelio"
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "",
+      "lugar": "af",
+      "sala": "Sala de teatro",
+      "titulo": "Exposición de fotografía \" Colores chilenos: la serendipia de la luz\" de Ruber Osoria",
+      "detalle": "",
+      "tipo": "Artes visuales",
+      "precio": "",
+      "url": "https://www.afconcepcion.cl/eventos/"
     }
   ],
   "exposiciones": [
@@ -361,6 +372,26 @@
       "url": "https://teatrobiobio.cl/pinturas-negras-textos-negros/"
     },
     {
+      "lugar": "gh",
+      "titulo": "Historia de Concepción en dioramas",
+      "detalle": "Muestra permanente · Parque Ecuador",
+      "desde": null,
+      "hasta": null,
+      "horario": "Mar a dom 10:00–18:00",
+      "precio": "Gratis (aporte voluntario)",
+      "url": "https://www.ghconcepcion.cl/"
+    },
+    {
+      "lugar": "gh",
+      "titulo": "Sala Regional",
+      "detalle": "Nuevo espacio de la Galería",
+      "desde": null,
+      "hasta": null,
+      "horario": "Mar a dom 10:00–18:00",
+      "precio": "Gratis (aporte voluntario)",
+      "url": "https://www.ghconcepcion.cl/index.php/2026/10/07/galeria-de-la-historia-de-concepcion-inaugura-un-nuevo-espacio-la-sala-regional/"
+    },
+    {
       "lugar": "pina",
       "titulo": "Sostener la memoria del bosque",
       "detalle": "Eduardo Filún Matus · Sala David Stitchkin Branover",
@@ -389,29 +420,11 @@
       "horario": "Mar a vie 10:00–17:45 · sáb 10:00–16:45 · dom 10:00–13:45",
       "precio": "",
       "url": "https://pinacoteca.udec.cl/expos_pinacoteca/flora-100-anos-del-natalicio-de-julio-escamez-1925-2025/"
-    },
-    {
-      "lugar": "gh",
-      "titulo": "Historia de Concepción en dioramas",
-      "detalle": "Muestra permanente · Parque Ecuador",
-      "desde": null,
-      "hasta": null,
-      "horario": "Mar a dom 10:00–18:00",
-      "precio": "Gratis (aporte voluntario)",
-      "url": "https://www.ghconcepcion.cl/"
-    },
-    {
-      "lugar": "gh",
-      "titulo": "Sala Regional",
-      "detalle": "Nuevo espacio de la Galería",
-      "desde": null,
-      "hasta": null,
-      "horario": "Mar a dom 10:00–18:00",
-      "precio": "Gratis (aporte voluntario)",
-      "url": "https://www.ghconcepcion.cl/index.php/2026/10/07/galeria-de-la-historia-de-concepcion-inaugura-un-nuevo-espacio-la-sala-regional/"
     }
   ],
-  "notas": [],
+  "notas": [
+    "Casa del Arte UdeC: su sitio no respondió hoy; se muestra la última información disponible."
+  ],
   "_diagnostico": {
     "Ticketmaster: Once": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once: HTTP 403",
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
@@ -419,9 +432,9 @@
     "Ticketplus/Corcudec": "ok: 6 funciones, 0 exposiciones",
     "Teatro Biobío (sitio)": "ok: 1 funciones, 1 exposiciones",
     "UCSC": "ok: 7 funciones, 0 exposiciones",
-    "Casa del Arte UdeC": "ok: 0 funciones, 5 exposiciones",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-19&end_date=2026-11-25%2023:59&per_page=50: HTTP 404",
-    "Alianza Francesa": "ok: 2 funciones, 0 exposiciones",
+    "Casa del Arte UdeC": "error: https://pinacoteca.udec.cl/wp-json/wp/v2/expos_pinacoteca?per_page=30&_fields=id,title,content,link,class_list: fetch failed",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-20&end_date=2026-11-26%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa": "ok: 3 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
     "Agenda concepcioncultural.cl": "ok: 2 funciones en el Teatro UdeC, 2 nuevas"
   },
