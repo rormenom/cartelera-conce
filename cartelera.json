@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20",
+  "actualizado": "2026-11-21",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -31,61 +31,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-20",
-      "hora": "15:00",
-      "lugar": "bib",
-      "sala": "Sala Teresa Águila",
-      "titulo": "Charla: La ilustración como herramienta de transformación social",
-      "detalle": "Casos prácticos y potencial creativo, con María Luisa Parés",
-      "tipo": "Charla",
-      "precio": "",
-      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "17:00",
-      "lugar": "ucsc",
-      "sala": "Teatro UCSC",
-      "titulo": "Teatro de títeres con la Compañía 60 deditos “¿Quién atrapará el León?”",
-      "detalle": "",
-      "tipo": "Teatro",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/teatro-de-titeres-con-la-compania-60-deditos-quien-atrapara-el-leon/"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "19:00",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Mama Choclo",
-      "detalle": "",
-      "tipo": "",
-      "precio": "$3.321",
-      "url": "https://ticketplus.cl/events/mama-choclo"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "19:00",
-      "lugar": "udec",
-      "sala": "Teatro UdeC",
-      "titulo": "Sinfónico 11: Hacia el nuevo horizonte",
-      "detalle": "",
-      "tipo": "Música",
-      "precio": "",
-      "url": "https://ticketplus.cl/events/sinfonico-11-hacia-el-nuevo-horizonte"
-    },
-    {
-      "fecha": "2026-11-20",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Cambio de turno",
-      "detalle": "",
-      "tipo": "",
-      "precio": "$5.536 – $7.750",
-      "url": "https://ticketplus.cl/events/cambio-de-turno-2026-11-19-19-30-00-0300"
-    },
     {
       "fecha": "2026-11-21",
       "hora": "10:00",
@@ -338,6 +283,17 @@
       "tipo": "Artes visuales",
       "precio": "",
       "url": "https://www.afconcepcion.cl/eventos/"
+    },
+    {
+      "fecha": "2026-11-27",
+      "hora": "20:00",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Carta de amor",
+      "detalle": "",
+      "tipo": "",
+      "precio": "Gratis",
+      "url": "https://ticketplus.cl/events/carta-de-amor"
     }
   ],
   "exposiciones": [
@@ -423,20 +379,21 @@
     }
   ],
   "notas": [
-    "Casa del Arte UdeC: su sitio no respondió hoy; se muestra la última información disponible."
+    "Casa del Arte UdeC: su sitio no respondió hoy; se muestra la última información disponible.",
+    "Alianza Francesa: su sitio no respondió hoy; se muestra la última información disponible."
   ],
   "_diagnostico": {
     "Ticketmaster: Once": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once: HTTP 403",
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
-    "Ticketplus/Corcudec": "ok: 6 funciones, 0 exposiciones",
+    "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
     "Teatro Biobío (sitio)": "ok: 1 funciones, 1 exposiciones",
-    "UCSC": "ok: 7 funciones, 0 exposiciones",
+    "UCSC": "ok: 6 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "error: https://pinacoteca.udec.cl/wp-json/wp/v2/expos_pinacoteca?per_page=30&_fields=id,title,content,link,class_list: fetch failed",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-20&end_date=2026-11-26%2023:59&per_page=50: HTTP 404",
-    "Alianza Francesa": "ok: 3 funciones, 0 exposiciones",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-21&end_date=2026-11-27%2023:59&per_page=50: fetch failed",
+    "Alianza Francesa": "error: https://www.afconcepcion.cl/eventos/: fetch failed",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
-    "Agenda concepcioncultural.cl": "ok: 2 funciones en el Teatro UdeC, 2 nuevas"
+    "Agenda concepcioncultural.cl": "ok: 1 funciones en el Teatro UdeC, 1 nuevas"
   },
   "fuentes": [
     {
