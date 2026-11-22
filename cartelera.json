@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-21",
+  "actualizado": "2026-11-22",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -31,83 +31,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-21",
-      "hora": "10:00",
-      "lugar": "bib",
-      "sala": "Primer y segundo piso",
-      "titulo": "Fiesta del Libro y la Lectura",
-      "detalle": "Ministerio de las Culturas, las Artes y el Patrimonio; de 10 a 18 horas",
-      "tipo": "Literatura",
-      "precio": "",
-      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "11:30",
-      "lugar": "bib",
-      "sala": "Sala Teresa Águila",
-      "titulo": "Charla: Día Mundial de la Filosofía",
-      "detalle": "Nueva Acrópolis",
-      "tipo": "Charla",
-      "precio": "",
-      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "16:00",
-      "lugar": "ucsc",
-      "sala": "Teatro UCSC",
-      "titulo": "Teatro Familiar: El patito feo. Compañía de Teatro El Rostro",
-      "detalle": "",
-      "tipo": "Teatro",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/teatro-familiar-el-patito-feo-compania-de-teatro-el-rostro-4/"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "18:00",
-      "lugar": "udec",
-      "sala": "Teatro UdeC",
-      "titulo": "Sinfónico 11: Hacia el nuevo horizonte",
-      "detalle": "Temporada Sinfónica UdeC",
-      "tipo": "Música",
-      "precio": "$3.600 – $18.000",
-      "url": "https://ticketplus.cl/events/sinfonico-11-hacia-el-nuevo-horizonte"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "18:00",
-      "lugar": "tbb",
-      "sala": "Pedro del Río, Concepción",
-      "titulo": "TBB en tu barrio: Las voces de Víctor",
-      "detalle": "",
-      "tipo": "",
-      "precio": "Gratis",
-      "url": "https://teatrobiobio.cl/tbb-en-tu-barrio-las-voces-de-victor/"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "19:00",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Catalina y Las Bordonas de Oro: La alegría de los que lloran",
-      "detalle": "",
-      "tipo": "",
-      "precio": "$14.392 – $22.142",
-      "url": "https://ticketplus.cl/events/catalina-y-las-bordonas-de-oro"
-    },
-    {
-      "fecha": "2026-11-21",
-      "hora": "19:30",
-      "lugar": "tbb",
-      "sala": "Sala de Cámara",
-      "titulo": "Cambio de turno",
-      "detalle": "",
-      "tipo": "",
-      "precio": "$5.536 – $7.750",
-      "url": "https://ticketplus.cl/events/cambio-de-turno-2026-11-19-19-30-00-0300"
-    },
     {
       "fecha": "2026-11-22",
       "hora": "14:00",
@@ -294,6 +217,50 @@
       "tipo": "",
       "precio": "Gratis",
       "url": "https://ticketplus.cl/events/carta-de-amor"
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "12:00",
+      "lugar": "bib",
+      "sala": "Segundo piso",
+      "titulo": "Tarde lúdica de aniversario",
+      "detalle": "Planeta LoZ",
+      "tipo": "Juegos",
+      "precio": "",
+      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "16:00",
+      "lugar": "ucsc",
+      "sala": "Teatro UCSC",
+      "titulo": "Teatro Familiar: El patito feo. Compañía de Teatro El Rostro",
+      "detalle": "",
+      "tipo": "Teatro",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/teatro-familiar-el-patito-feo-compania-de-teatro-el-rostro-5/"
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "19:30",
+      "lugar": "tbb",
+      "sala": "Sala Principal",
+      "titulo": "Folie",
+      "detalle": "",
+      "tipo": "",
+      "precio": "Gratis",
+      "url": "https://ticketplus.cl/events/folie"
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "20:00",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Carta de amor",
+      "detalle": "",
+      "tipo": "",
+      "precio": "Gratis",
+      "url": "https://ticketplus.cl/events/carta-de-amor"
     }
   ],
   "exposiciones": [
@@ -379,19 +346,18 @@
     }
   ],
   "notas": [
-    "Casa del Arte UdeC: su sitio no respondió hoy; se muestra la última información disponible.",
-    "Alianza Francesa: su sitio no respondió hoy; se muestra la última información disponible."
+    "Casa del Arte UdeC: su sitio no respondió hoy; se muestra la última información disponible."
   ],
   "_diagnostico": {
     "Ticketmaster: Once": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-once: HTTP 403",
     "Ticketmaster: Funny Games": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-funny-games: HTTP 403",
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
-    "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
-    "Teatro Biobío (sitio)": "ok: 1 funciones, 1 exposiciones",
+    "Ticketplus/Corcudec": "ok: 4 funciones, 0 exposiciones",
+    "Teatro Biobío (sitio)": "ok: 0 funciones, 1 exposiciones",
     "UCSC": "ok: 6 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "error: https://pinacoteca.udec.cl/wp-json/wp/v2/expos_pinacoteca?per_page=30&_fields=id,title,content,link,class_list: fetch failed",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-21&end_date=2026-11-27%2023:59&per_page=50: fetch failed",
-    "Alianza Francesa": "error: https://www.afconcepcion.cl/eventos/: fetch failed",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-22&end_date=2026-11-28%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa": "ok: 3 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
     "Agenda concepcioncultural.cl": "ok: 1 funciones en el Teatro UdeC, 1 nuevas"
   },
