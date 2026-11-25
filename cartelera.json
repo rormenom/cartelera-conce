@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-24",
+  "actualizado": "2026-11-25",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -31,39 +31,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-24",
-      "hora": "10:00",
-      "lugar": "ucsc",
-      "sala": "Teatro UCSC",
-      "titulo": "Programa de Formación de Nuevos Públicos: “Seré un Colibrí, la historia de Wangari Maathai”",
-      "detalle": "",
-      "tipo": "",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/programa-de-formacion-de-nuevos-publicos-sere-un-colibri-la-historia-de-wangari-maathai/"
-    },
-    {
-      "fecha": "2026-11-24",
-      "hora": "10:00",
-      "lugar": "bib",
-      "sala": "Sala Investigadores",
-      "titulo": "Sesión de escritura y lectura",
-      "detalle": "Grupo Literario Azul",
-      "tipo": "Literatura",
-      "precio": "",
-      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
-    },
-    {
-      "fecha": "2026-11-24",
-      "hora": "19:00",
-      "lugar": "af",
-      "sala": "Sala de teatro",
-      "titulo": "Ciclo de cine Pensar Sentir Mostrar",
-      "detalle": "Trois amies",
-      "tipo": "Cine",
-      "precio": "Gratis",
-      "url": "https://www.afconcepcion.cl/eventos/"
-    },
     {
       "fecha": "2026-11-25",
       "hora": "12:00",
@@ -376,10 +343,10 @@
     "Ticketmaster: Romeo + Julieta": "https://www.ticketmaster.cl/event/lunes-cinematograficos-teatro-universidad-de-concepcion-romeo-y-julieta: HTTP 403",
     "Ticketplus/Corcudec": "ok: 5 funciones, 0 exposiciones",
     "Teatro Biobío (sitio)": "ok: 0 funciones, 1 exposiciones",
-    "UCSC": "ok: 7 funciones, 0 exposiciones",
+    "UCSC": "ok: 6 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "error: https://pinacoteca.udec.cl/wp-json/wp/v2/expos_pinacoteca?per_page=30&_fields=id,title,content,link,class_list: fetch failed",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-24&end_date=2026-11-30%2023:59&per_page=50: HTTP 404",
-    "Alianza Francesa": "ok: 3 funciones, 0 exposiciones",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-25&end_date=2026-12-01%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa": "ok: 2 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
     "Agenda concepcioncultural.cl": "ok: 1 funciones en el Teatro UdeC, 1 nuevas"
   },
