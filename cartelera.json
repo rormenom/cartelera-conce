@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-26",
+  "actualizado": "2026-11-27",
   "lugares": {
     "tbb": {
       "nombre": "Teatro Biobío",
@@ -31,50 +31,6 @@
     }
   },
   "eventos": [
-    {
-      "fecha": "2026-11-26",
-      "hora": "15:00",
-      "lugar": "bib",
-      "sala": "Sala Investigadores",
-      "titulo": "Club de lectura histórica",
-      "detalle": "Archivo Histórico de Concepción, con Melissa Coronado",
-      "tipo": "Literatura",
-      "precio": "",
-      "url": "https://www.bibliotecamunicipaldeconcepcion.cl/index.php/calendario-de-actividades-205/"
-    },
-    {
-      "fecha": "2026-11-26",
-      "hora": "18:30",
-      "lugar": "ucsc",
-      "sala": "Teatro UCSC",
-      "titulo": "6° versión de “Arte, vida y danza 2026”",
-      "detalle": "Vicerrectoría Académica UCSC",
-      "tipo": "Danza",
-      "precio": "",
-      "url": "https://ucsc.cl/eventos/6-version-de-arte-vida-y-danza-2026/"
-    },
-    {
-      "fecha": "2026-11-26",
-      "hora": "19:00",
-      "lugar": "tbb",
-      "sala": "Sala Principal",
-      "titulo": "Gloria de Sebatián Lelio",
-      "detalle": "",
-      "tipo": "",
-      "precio": "Gratis",
-      "url": "https://ticketplus.cl/events/gloria-de-sebatian-lelio"
-    },
-    {
-      "fecha": "2026-11-26",
-      "hora": "",
-      "lugar": "af",
-      "sala": "Sala de teatro",
-      "titulo": "Exposición de fotografía \" Colores chilenos: la serendipia de la luz\" de Ruber Osoria",
-      "detalle": "",
-      "tipo": "Artes visuales",
-      "precio": "",
-      "url": "https://www.afconcepcion.cl/eventos/"
-    },
     {
       "fecha": "2026-11-27",
       "hora": "20:00",
@@ -184,6 +140,28 @@
       "tipo": "",
       "precio": "",
       "url": "https://ucsc.cl/eventos/seminario-interdisciplinar-historia-y-traduccion/"
+    },
+    {
+      "fecha": "2026-12-01",
+      "hora": "10:00",
+      "lugar": "ucsc",
+      "sala": "Plaza del Estudiante, Campus San Andrés UCSC",
+      "titulo": "Bibliomóvil llega a la UCSC",
+      "detalle": "Ediciones UCSC",
+      "tipo": "",
+      "precio": "",
+      "url": "https://ucsc.cl/eventos/bibliomovil-llega-a-la-ucsc/"
+    },
+    {
+      "fecha": "2026-12-03",
+      "hora": "20:00",
+      "lugar": "tbb",
+      "sala": "Sala de Cámara",
+      "titulo": "Neurofuga",
+      "detalle": "",
+      "tipo": "",
+      "precio": "$4.428",
+      "url": "https://ticketplus.cl/events/neurofuga-2026-12-03-20-00-00-0300"
     }
   ],
   "exposiciones": [
@@ -279,8 +257,8 @@
     "Teatro Biobío (sitio)": "ok: 0 funciones, 1 exposiciones",
     "UCSC": "ok: 3 funciones, 0 exposiciones",
     "Casa del Arte UdeC": "error: https://pinacoteca.udec.cl/wp-json/wp/v2/expos_pinacoteca?per_page=30&_fields=id,title,content,link,class_list: fetch failed",
-    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-26&end_date=2026-12-02%2023:59&per_page=50: HTTP 404",
-    "Alianza Francesa": "ok: 2 funciones, 0 exposiciones",
+    "Alianza Francesa (API)": "no disponible: https://www.afconcepcion.cl/wp-json/tribe/events/v1/events?start_date=2026-11-27&end_date=2026-12-03%2023:59&per_page=50: HTTP 404",
+    "Alianza Francesa": "ok: 1 funciones, 0 exposiciones",
     "Galería de la Historia": "ok: 0 funciones, 2 exposiciones",
     "Agenda concepcioncultural.cl": "ok: 1 funciones en el Teatro UdeC, 1 nuevas"
   },
